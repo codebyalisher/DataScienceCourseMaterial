@@ -179,6 +179,26 @@ EDA helps you understand the data's underlying patterns, correlations, and distr
 By following these steps, you'll be able to systematically explore your car data, prepare it for modeling, and gain insights that can guide your decision-making process. 
 Data Analysis and Visulization:
 
+#### common Graphs
+| Graph Type       | Data Type                  | Purpose                                     | Use Case                                          |
+|------------------|----------------------------|---------------------------------------------|-------------------------------------------------|
+| Histogram        | Numerical                  | Show distribution of a numerical variable   | Checking the distribution of Age or Salary        |
+| Boxplot          | Numerical or Categorical (with groups) | Show distribution, detect outliers     | Comparing salary distribution across departments  |
+| Density Plot     | Numerical                  | Show smoothed distribution                  | Checking distribution shape (e.g., normal distribution) |
+| Bar Chart        | Categorical                | Show frequency of categories                | Showing department distribution in a company      |
+| Pie Chart        | Categorical                | Show proportions of categories              | Showing market share of different products        |
+| Scatter Plot     | Numerical vs Numerical     | Show relationship between two numerical variables | Correlation between Height and Weight         |
+| Heatmap          | Numerical (Correlation Matrix) | Show correlation between variables        | Visualizing correlations between Salary, Age, and Experience |
+| Stacked Bar Chart | Categorical vs Categorical | Show relationship between two categorical variables | Comparing Gender within Department            |
+| Violin Plot      | Numerical vs Categorical   | Show distribution of a numerical variable across categories | Comparing Income distribution across Region categories |
+| Pair Plot        | Numerical                  | Show pairwise relationships between variables | Exploring relationships between multiple numerical features |
+
+**In Summary**:
+- **Distribution graphs** (histograms, boxplots, density plots) are used to visualize the spread and central tendency of single variables.
+- **Relationship graphs** (scatter plots, boxplots, pair plots) help you understand how two variables interact, whether they are numeric or categorical.
+- **Correlation graphs** (heatmaps, scatter plots) help visualize the degree to which numerical variables are related.
+- **Single variable graphs** like bar charts and pie charts are best for visualizing the distribution of categorical variables.
+
 ## Categories and Attributes in Data Variables
 
 When working with data, various terms describe the structure, storage, and representation of information. Below is a list of common terms used in data science, databases, and analytics.
