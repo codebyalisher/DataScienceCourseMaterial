@@ -178,6 +178,27 @@ EDA helps you understand the data's underlying patterns, correlations, and distr
 
 By following these steps, you'll be able to systematically explore your car data, prepare it for modeling, and gain insights that can guide your decision-making process. 
 Data Analysis and Visulization:
+
+### Key Terms:
+1. **Distribution**: Refers to how data points are spread out or arranged in a dataset.
+2. **Spread/Dispersion**: Indicates how much the data points differ from the central value, such as the mean.
+3. **Range**: The difference between the maximum and minimum values in a dataset.
+4. **Variance**: A measure of how much each data point differs from the mean. It's calculated by averaging the squared differences from the mean.
+5. **Standard Deviation**: The square root of variance, providing a measure of spread in the same units as the data.
+6. **Interquartile Range (IQR)**: The range between the first quartile (Q1) and third quartile (Q3), representing the middle 50% of the data.
+
+### Visualizing Distribution and Spread:
+- **Histograms**: These plots display the distribution of data across different intervals or bins, showing the frequency of data points within each bin.
+- **Boxplots**: These charts illustrate the spread of data by showing the median, quartiles, and potential outliers. They are useful for comparing distributions across different groups.
+- **Density Plots**: Similar to histograms but provide a smooth curve representing the distribution of the data, which can be more insightful for understanding the shape of the data.
+
+### Examples of Distributions:
+1. **Uniform Distribution**: All values occur with equal frequency. An example is rolling a fair die where each outcome (1 through 6) has an equal chance of appearing.
+2. **Normal Distribution**: Data follows a bell-shaped curve. Most data points cluster around the mean, with fewer points as you move away from the mean. This is often referred to as a "bell curve."
+3. **Skewed Distribution**: The data not symmetric. 
+   - **Right-Skewed (Positive Skew)**: The tail of the distribution extends to the right, meaning there are a few very large values.
+   - **Left-Skewed (Negative Skew)**: The tail extends to the left, indicating a few very small values.
+
 #### What is the Analysis?   A detailed examination of anything complex in order to understand its nature or to determine its essential features
 
 Data Analysis is the process of cleaning, transforming, visualizing, and analyzing the data to gain valuable insights to make more effective business decisions is known as Data Analysis.
