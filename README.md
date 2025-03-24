@@ -178,26 +178,79 @@ EDA helps you understand the data's underlying patterns, correlations, and distr
 
 By following these steps, you'll be able to systematically explore your car data, prepare it for modeling, and gain insights that can guide your decision-making process. 
 Data Analysis and Visulization:
+#### 1. Distribution
+The distribution of data refers to how the values of a variable are spread out or arranged. In other words, it tells you how often each value or range of values occurs in your dataset.
+
+**A distribution can be visualized in different ways**, such as:
+
+**Histograms:** Show the frequency of data points within certain intervals (bins). <br>
+**Boxplots:** Provide a summary of the distribution, showing the median, quartiles, and potential outliers. <br>
+**Probability Distribution:** This is the theoretical model describing how the values of a variable are distributed, like normal distribution or exponential distribution. <br>
+**Example:** If you have a dataset of people's ages, the distribution tells you how many people fall into certain age groups (e.g., 20-30 years old, 30-40 years old, etc.).
+#### 2. Spread or Dispersion
+The spread or dispersion of the data refers to the extent to which the values in your dataset differ from the average or central value. It answers the question: How much do the values vary?
+
+**There are a few key measures of dispersion (spread):**
+
+**a. Range**
+The range is the simplest measure of spread, which is the difference between the maximum and minimum values in the dataset. <br>
+Formula: <br>
+Range=Maximum Value−Minimum Value <br>
+Example: If your data points are ages of people: 18, 25, 30, 35, 60, then the range is 60−18=42
+
+**b. Variance**
+Variance measures how far each data point is from the mean (average) and gives us an idea of how spread out the values are. The higher the variance, the more spread out the data is. <br>
+Formula:
+
+Variance=1/𝑛∑(𝑋𝑖−𝜇)square <br>
+where: <br>
+𝑋𝑖​  <br>
+  is each individual data point <br>
+𝜇 <br>
+μ is the mean of the data <br>
+𝑛 <br>
+n is the number of data points <br>
+Example: If most data points are close to the mean, variance will be small; if data points are spread out, variance will be large.
+
+**c. Standard Deviation**  <br>
+Standard deviation is the square root of the variance. It’s more interpretable than variance because it’s in the same units as the data. <br>
+
+Formula: <br>
+
+Standard Deviation= squre root of Variance​ <br>
+ 
+**Example:** If the standard deviation is small, the data points are close to the mean. If it's large, the data points are spread out across a wider range.
+
+**d. Interquartile Range (IQR)**  <br>
+IQR measures the range within which the central 50% of data points lie. It's calculated as the difference between the third quartile (Q3) and the first quartile (Q1). <br>
+
+Formula:<br>
+IQR=𝑄3−𝑄1<br>
+Example: If the first quartile is 20 and the third quartile is 40, the IQR is <br>
+40−20=20. This tells you that the middle 50% of the data falls within a range of 20 units.
 
 ### Key Terms:
-1. **Distribution**: Refers to how data points are spread out or arranged in a dataset.
-2. **Spread/Dispersion**: Indicates how much the data points differ from the central value, such as the mean.
-3. **Range**: The difference between the maximum and minimum values in a dataset.
-4. **Variance**: A measure of how much each data point differs from the mean. It's calculated by averaging the squared differences from the mean.
-5. **Standard Deviation**: The square root of variance, providing a measure of spread in the same units as the data.
+1. **Distribution**: Refers to how data points are spread out or arranged in a dataset.<br>
+2. **Spread/Dispersion**: Indicates how much the data points differ from the central value, such as the mean.<br>
+3. **Range**: The difference between the maximum and minimum values in a dataset.<br>
+4. **Variance**: A measure of how much each data point differs from the mean. It's calculated by averaging the squared differences from the mean.<br>
+5. **Standard Deviation**: The square root of variance, providing a measure of spread in the same units as the data.<br>
 6. **Interquartile Range (IQR)**: The range between the first quartile (Q1) and third quartile (Q3), representing the middle 50% of the data.
 
 ### Visualizing Distribution and Spread:
-- **Histograms**: These plots display the distribution of data across different intervals or bins, showing the frequency of data points within each bin.
-- **Boxplots**: These charts illustrate the spread of data by showing the median, quartiles, and potential outliers. They are useful for comparing distributions across different groups.
+- **Histograms**: These plots display the distribution of data across different intervals or bins, showing the frequency of data points within each bin.<br>
+- **Boxplots**: These charts illustrate the spread of data by showing the median, quartiles, and potential outliers. They are useful for comparing distributions across different groups.<br>
 - **Density Plots**: Similar to histograms but provide a smooth curve representing the distribution of the data, which can be more insightful for understanding the shape of the data.
 
 ### Examples of Distributions:
-1. **Uniform Distribution**: All values occur with equal frequency. An example is rolling a fair die where each outcome (1 through 6) has an equal chance of appearing.
-2. **Normal Distribution**: Data follows a bell-shaped curve. Most data points cluster around the mean, with fewer points as you move away from the mean. This is often referred to as a "bell curve."
-3. **Skewed Distribution**: The data not symmetric. 
-   - **Right-Skewed (Positive Skew)**: The tail of the distribution extends to the right, meaning there are a few very large values.
-   - **Left-Skewed (Negative Skew)**: The tail extends to the left, indicating a few very small values.
+1. **Uniform Distribution**: All values occur with equal frequency. An example is rolling a fair die where each outcome (1 through 6) has an equal chance of appearing.<br>
+2. **Normal Distribution**: Data follows a bell-shaped curve. Most data points cluster around the mean, with fewer points as you move away from the mean. This is often referred to as a "bell curve."<br>
+3. **Skewed Distribution**: The data not symmetric. <br>
+   - **Right-Skewed (Positive Skew)**: The tail of the distribution extends to the right, meaning there are a few very large values.<br>
+   - **Left-Skewed (Negative Skew)**: The tail extends to the left, indicating a few very small values.<br>
+#### Why are these Important?
+**Distribution** helps us understand how our data behaves, and what patterns or trends might exist.<br>
+**Spread/Dispersion** helps us gauge how variable the data is, and whether the data is tightly packed or widely spread.
 
 #### What is the Analysis?   A detailed examination of anything complex in order to understand its nature or to determine its essential features
 
