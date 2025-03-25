@@ -29,8 +29,13 @@
 `Numerical features may be there, categorial features, missing values, visualise, outliers box plot, cleaning
 Step 2 handling missing values by mean, box plot iqr remove, handling imbalance dataset, treating outliers, scaling data standarisation and normalisation, categorical to numerical features`
 ## Links for the Feature Engineering and EDA
+- **Pre-Requesite to watch or to proceed ahead** :
+[Python](https://roadmap.sh/python)
+[libraries pandas,numpy,seaborn,matplotlib](https://moonlighto2.medium.com/key-python-libraries-for-data-analysis-and-code-examples-f15c8a2349c1)
+[Statistics](https://www.youtube.com/watch?v=zRUliXuwJCQ&list=PLZoTAELRMXVMhVyr3Ri9IQ-t5QPBtxzJO)
 [Feature Engineering](https://www.youtube.com/watch?v=6WDFfaYtN6s&list=PLZoTAELRMXVPwYGE2PXD3x0bfKnR0cJjN) <br>
-[EDA Playlist](https://www.youtube.com/watch?v=ioN1jcWxbv8&list=PLZoTAELRMXVPQyArDHyQVjQxjj_YmEuO9) <br>
+[EDA Playlist](https://www.youtube.com/watch?v=ioN1jcWxbv8&list=PLZoTAELRMXVPQyArDHyQVjQxjj_YmEuO9) And [Live session EDA playlist](https://www.youtube.com/watch?v=bTN-6VPe8c0&list=PLZoTAELRMXVPzj1D0i_6ajJ6gyD22b3jh)<br> 
+[Feature Selection](https://www.youtube.com/watch?v=uMlU2JaiOd8&list=PLZoTAELRMXVPgjwJ8VyRoqmfNs2CJwhVH)
 
 ### 1. Understanding Your Data
 
