@@ -325,12 +325,22 @@ Example: If most data points are close to the mean, variance will be small; if d
 
 **c. Standard Deviation**  <br>
 Standard deviation is the square root of the variance. It’s more interpretable than variance because it’s in the same units as the data. <br>
-
+`Small std = Less variation.` <br>
+`Large std = More variation.` ,sometime it is useful as it has more information or variablity. <br>
+A **std of 52** indicates moderate spread, suggesting you have a `mix of low and high horsepower` cars. <br>
+It's useful for understanding the spread and variability of your data.<br>
 Formula: <br>
 
 Standard Deviation= squre root of Variance​ <br>
  
-**Example:** If the standard deviation is small, the data points are close to the mean. If it's large, the data points are spread out across a wider range.
+**Example:** If the standard deviation is small, the data points are close to the mean. If it's large, the data points are spread out across a wider range.i.e.<br>
+**Real-Life Example:**<br>
+Horsepower in cars: If the mean horsepower is 143 and the standard deviation is 52, it means most cars have horsepower between:<br>
+`143−52=91(lower bound)` <br>
+`143+52=195(upper bound)`<br>
+So, about 68% of cars in the dataset have horsepower between 91 and 195.<br>
+on average, the horsepower variable of cars in car dataset deviates by 52 units from the mean.If the mean is 143 hp and the standard deviation is 52 hp, this means that most of the cars in the dataset will have horsepower values that are between 91 hp and 195 hp or (1 standard deviation away from the mean).
+For More Comprehensive you can visualize through the graphs using boxplot etc.
 
 **d. Interquartile Range (IQR)**  <br>
 IQR measures the range within which the central 50% of data points lie. It's calculated as the difference between the third quartile (Q3) and the first quartile (Q1). <br>
