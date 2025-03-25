@@ -1,4 +1,36 @@
 # DataScienceCourseMaterial
+## 1. Feature Engineering (Takes 30% of Project Time)
+   **a) EDA**
+     - i)   Analyze how many numerical features are present using histogram, pdf with seaborn, matplotlib.
+     - ii)  Analyze how many categorical features are present. Is multiple categories present for each feature?
+     - iii) Missing Values (Visualize all these graphs)
+     - iv)  Outliers - Boxplot
+     - v)   Cleaning
+     
+   **b) Handling the Missing Values**
+     - i)   Mean/Median/Mode
+     
+   **c) Handling Imbalanced dataset 
+   d) Treating the Outliers
+   e) Scaling down the data - Standardization, Normalization
+   f) Converting the categorical features into numerical features**
+
+## 2. Feature Selection
+   **a) Correlation
+   b) KNeighbors
+   c) ChiSquare
+   d) Genetic Algorithm
+   e) Feature Importance - Extra Tree Classifiers**
+   
+## 3. Model Creation
+**4. Hyperparameter Tuning
+5. Model Deployment
+6. Incremental Learning** <br>
+`Numerical features may be there, categorial features, missing values, visualise, outliers box plot, cleaning
+Step 2 handling missing values by mean, box plot iqr remove, handling imbalance dataset, treating outliers, scaling data standarisation and normalisation, categorical to numerical features`
+## Links for the Feature Engineering and EDA
+[Feature Engineering](https://www.youtube.com/watch?v=6WDFfaYtN6s&list=PLZoTAELRMXVPwYGE2PXD3x0bfKnR0cJjN) <br>
+[EDA Playlist](https://www.youtube.com/watch?v=ioN1jcWxbv8&list=PLZoTAELRMXVPQyArDHyQVjQxjj_YmEuO9) <br>
 
 ### 1. Understanding Your Data
 
