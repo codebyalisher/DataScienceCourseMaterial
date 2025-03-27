@@ -379,6 +379,7 @@ Horsepower in cars: If the mean horsepower is 143 and the standard deviation is 
 So, about 68% of cars in the dataset have horsepower between 91 and 195.<br>
 on average, the horsepower variable of cars in car dataset deviates by 52 units from the mean.If the mean is 143 hp and the standard deviation is 52 hp, this means that most of the cars in the dataset will have horsepower values that are between 91 hp and 195 hp or (1 standard deviation away from the mean).
 For More Comprehensive you can visualize through the graphs using boxplot etc.
+**Other Best Example** suppose we have the missing values in a column and we impute these missing values with central tendency ,then to check the difference before applying the central tendency to that column and after applying  using standard deviation ,it will show the difference ,this is how through std we can apply or check the difference for central tendency after applying.
 
 **d. Interquartile Range (IQR)**  <br>
 IQR measures the range within which the central 50% of data points lie. It's calculated as the difference between the third quartile (Q3) and the first quartile (Q1). <br>
