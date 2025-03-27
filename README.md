@@ -866,7 +866,7 @@ related to other data in the dataset.
 - **Missing Not at Random (MNAR):** This occurs when there is a direct relation
 to some missing data that the researchers haven’t measured.
 **Standardization** is useful when you want to center your data with a mean of 0 and a standard deviation of 1, especially when your algorithm assumes that the data is normally distributed (e.g., linear regression, PCA).
-## Methods to remove the Missing Data:
+## Methods/Techniques to remove the Missing Data: For Both Continuos Data and Categorical Data
 - **distribution of data**: statistics using mean,max,etc
 - **imputation of KNN**:
 - **mputation with linear regression**
