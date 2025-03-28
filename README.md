@@ -959,5 +959,91 @@ When you're a beginner and find yourself stuck during the Exploratory Data Analy
 9. **Seek Help**:
    - Don't hesitate to ask for help from more experienced colleagues, online forums, or tutorials.
    - The data science community is generally very helpful and supportive.
+  
+
+## Model Evaluation Metrics
+
+### Classification Metrics
+
+**Purpose:** To evaluate the performance of models predicting categorical outcomes.
+
+**1. Accuracy:**
+
+* **Definition:** The proportion of correctly predicted instances out of the total instances.
+* **Formula:** $\frac{\text{Number of Correct Predictions}}{\text{Total Number of Predictions}}$
+* **Use Case:** Suitable when classes are balanced.
+* **Caution:** Can be misleading with imbalanced datasets.
+
+**2. Precision:**
+
+* **Definition:** The proportion of correctly predicted positive instances out of the total instances predicted as positive.
+* **Formula:** $\frac{\text{True Positives (TP)}}{\text{True Positives (TP) + False Positives (FP)}}$
+* **Use Case:** Important when minimizing false positives is crucial.
+
+**3. Recall (Sensitivity/True Positive Rate):**
+
+* **Definition:** The proportion of correctly predicted positive instances out of all actual positive instances.
+* **Formula:** $\frac{\text{True Positives (TP)}}{\text{True Positives (TP) + False Negatives (FN)}}$
+* **Use Case:** Important when minimizing false negatives is crucial.
+
+**4. F1-Score:**
+
+* **Definition:** The harmonic mean of precision and recall.
+* **Formula:** $2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$
+* **Use Case:** Balances precision and recall, useful when there's an uneven class distribution.
+
+**5. Area Under the ROC Curve (AUC-ROC):**
+
+* **Definition:** Measures the model's ability to distinguish between classes across various threshold settings.
+* **Use Case:** Useful for binary classification problems, especially when class imbalance exists.
+* **Interpretation:** AUC-ROC of 1 indicates perfect classification, 0.5 indicates random guessing.
+
+**6. Confusion Matrix:**
+
+* **Definition:** A table that visualizes the performance of a classification model by showing the counts of true positives, true negatives, false positives, and false negatives.
+* **Use Case:** Provides a comprehensive view of model performance.
+
+---
+
+### Regression Metrics
+
+**Purpose:** To evaluate the performance of models predicting continuous numerical outcomes.
+
+**1. Mean Absolute Error (MAE):**
+
+* **Definition:** The average absolute difference between predicted and actual values.
+* **Formula:** $\frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$
+* **Use Case:** Robust to outliers compared to MSE.
+
+**2. Mean Squared Error (MSE):**
+
+* **Definition:** The average squared difference between predicted and actual values.
+* **Formula:** $\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$
+* **Use Case:** Sensitive to outliers due to squaring.
+
+**3. Root Mean Squared Error (RMSE):**
+
+* **Definition:** The square root of MSE.
+* **Formula:** $\sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}$
+* **Use Case:** Provides error in the same units as the target variable.
+
+**4. R-squared (Coefficient of Determination):**
+
+* **Definition:** Measures the proportion of the variance in the dependent variable that is predictable from the independent variable(s).
+* **Formula:** $1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}$
+* **Use Case:** Indicates how well the model fits the data.
+* **Interpretation:** R-squared of 1 indicates a perfect fit, 0 indicates no linear relationship.
+
+**5. Adjusted R-squared:**
+
+* **Definition:** Modified version of R-squared that adjusts for the number of predictors in the model.
+* **Use Case:** Useful when comparing models with different numbers of predictors.
+
+**6. Mean Absolute Percentage Error (MAPE):**
+
+* **Definition:** Average absolute percentage difference between predicted and actual values.
+* **Formula:** $\frac{1}{n} \sum_{i=1}^{n} |\frac{y_i - \hat{y}_i}{y_i}| \times 100$
+* **Use Case:** Provides error as a percentage, making it easy to interpret.
+* **Caution:** Undefined when actual values are zero.
 
 Remember, the goal of EDA is to gain a deep understanding of your data so that you can make informed decisions about how to proceed with your analysis or modeling. Take your time, be methodical, and don't be afraid to explore different approaches.
