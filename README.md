@@ -873,7 +873,7 @@ to some missing data that the researchers haven’t measured.
 This imputation technique utilises variables from the observed data to replace the
 missing values with predicted values from a regression model.
 
-## FEATURE SCALING: NORMALISATION AND STANDARDISATION
+## FEATURE SCALING: NORMALISATION AND STANDARDISATION for both ML(regression-->gradient descent,eucladien distance and DL(KNN,RNN,CNN) )
 Another common problem we encounter when trying to analyse data is having
 different units of measurement for a particular variable.
 ### Methods for scaling
