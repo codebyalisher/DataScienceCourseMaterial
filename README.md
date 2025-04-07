@@ -162,6 +162,26 @@ EDA helps you understand the data's underlying patterns, correlations, and distr
 
 **b. Feature Selection**:
    - Use techniques like correlation matrix, feature importance from tree-based models, or PCA to select important features.
+     
+**c. Why Transformation of Features Are Required?**
+   1. Linear Regression --- Gradient Descent --- Global Minima
+   2. Algorithms like KNN, K Means, Hierarchical Clustering --- Euclidean Distance <br>
+   ***Every Point has some vectors and Direction*** <br>
+   ***Deep Learning Techniques (Standardization, Scaling)***<br>
+   1. ANN ---> Global Minima, Gradient
+   3. RNN
+   4. 0-255 pixels
+   
+**d. Types Of Feature Transformation**:
+   - Normalization And Standardization
+   - Scaling to Minimum And Maximum values
+   - Scaling To Median And Quantiles
+   - Gaussian Transformation
+   - Logarithmic Transformation
+   - Reciprocal Transformation
+   - Square Root Transformation
+   - Exponential Transformation
+   - Box Cox Transformation
 
 ### 5. Insight and Problem Identification
 
