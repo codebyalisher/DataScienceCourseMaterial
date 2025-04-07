@@ -1,4 +1,5 @@
 # DataScienceCourseMaterial
+   - **[Overview of Data Science](https://www.linkedin.com/pulse/data-science-methodology-step-by-step-guide-uzair-azmat-5tekf/?trackingId=DOxr4vPTsiNgGbFTdDijoQ%3D%3D)**
 ## 1. Feature Engineering (Takes 30% of Project Time)
    **a) EDA**
      - i)   Analyze how many numerical features are present using histogram, pdf with seaborn, matplotlib.
