@@ -37,10 +37,11 @@ Step 2 handling missing values by mean, box plot iqr remove, handling imbalance 
   - [Feature Engineering](https://www.youtube.com/watch?v=6WDFfaYtN6s&list=PLZoTAELRMXVPwYGE2PXD3x0bfKnR0cJjN) <br>
   - [EDA Playlist](https://www.youtube.com/watch?v=ioN1jcWxbv8&list=PLZoTAELRMXVPQyArDHyQVjQxjj_YmEuO9) And [Live session EDA playlist](https://www.youtube.com/watch?v=bTN-6VPe8c0&list=PLZoTAELRMXVPzj1D0i_6ajJ6gyD22b3jh) --- Know More about EDA---> [EDA in Minutes](https://www.youtube.com/watch?v=AYalukmWroY), [EDA libraries at One Place](https://www.youtube.com/watch?v=BoKLMehRahw),[EDA using SweetViz Library](https://www.youtube.com/watch?v=D4fHn4lHCmI),[EDA using dtale library](https://www.youtube.com/watch?v=xSXGcuiEzUc) <br> 
   - [Feature Selection](https://www.youtube.com/watch?v=uMlU2JaiOd8&list=PLZoTAELRMXVPgjwJ8VyRoqmfNs2CJwhVH)
-  - [Machine Learning](https://www.youtube.com/watch?v=z8sxaUw_f-M&list=PLZoTAELRMXVPjaAzURB77Kz0YXxj65tYz),[ML](https://www.youtube.com/watch?v=1ctqJCHMAmc)
+  - [Machine Learning](https://www.youtube.com/watch?v=z8sxaUw_f-M&list=PLZoTAELRMXVPjaAzURB77Kz0YXxj65tYz),[ML](https://www.youtube.com/watch?v=1ctqJCHMAmc),[Blogs for Machine Learning](https://intellipaat.com/blog/tutorial/machine-learning-tutorial/)
   - [Deep Learning](https://www.youtube.com/watch?v=d2kxUVwWWwU&pp=ygUPY29tcHV0ZXIgdmlzaW9u)
   - [NLP](https://www.youtube.com/watch?v=ENLEjGozrio)
-  - [Computer vision or CV]()
+  - [Computer vision or CV](https://www.youtube.com/watch?v=E-HSXRvL9Ik),[Blog for the CV](https://intellipaat.com/blog/what-is-computer-vision/)
+  - [AI Course Blogs](https://intellipaat.com/blog/tutorial/artificial-intelligence-tutorial/)
 
 ### 1. Understanding Your Data
 
