@@ -76,6 +76,7 @@ Step 2 handling missing values by mean, box plot iqr remove, handling imbalance 
 #### Cleaning
 - **Handle Missing Values**: Decide on imputation or removal based on the context and importance of the data.
 - **Handle Outliers**: Identify and decide whether to keep, transform, or remove them.
+- **Handling the Imbalanced Data**: check whether data has equality in row or column wise and has the same scale of values.
 - **Encoding Categorical Variables**: Convert categorical variables to numerical using techniques like one-hot encoding or label encoding.
 
 #### Statistical Analysis
