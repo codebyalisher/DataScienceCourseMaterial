@@ -44,6 +44,8 @@ Step 2 handling missing values by mean, box plot iqr remove, handling imbalance 
   - [Computer vision or CV](https://www.youtube.com/watch?v=E-HSXRvL9Ik), [Blog for the CV](https://intellipaat.com/blog/what-is-computer-vision/)
   - [AI Course Blogs](https://intellipaat.com/blog/tutorial/artificial-intelligence-tutorial/)
 
+### For Practical see the link
+https://drive.google.com/drive/folders/1va6VQ7qCsqS5vqOAALAS5Y8QVys9nnwR?usp=sharing <br>
 ### 1. Understanding Your Data
 
 #### Data Types and Summary Statistics
