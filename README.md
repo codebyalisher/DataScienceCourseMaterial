@@ -160,7 +160,43 @@ EDA helps you understand the data's underlying patterns, correlations, and distr
    - Normalize or standardize numerical features if the scale differences are significant.
 
 **d. Outlier Treatment**:
-   - Decide whether to remove or transform outliers based on domain knowledge and their impact on the model.
+   - Decide whether to remove or transform outliers based on domain knowledge and their impact on the model. <br>
+        **Outlier Detection and Handling Techniques**<br>
+               **1. Z-Score Method (Standard Deviation Method)**   <br>            
+               **What it does:** Measures how far a data point is from the mean in terms of standard deviations.<br>  
+               **When to use:** If data follows a normal distribution.<br>  
+               **How to apply:** Any point with a Z-score above 3 or below -3 is considered an outlier.<br>               
+               **2. IQR (Interquartile Range) Method** <br>              
+               **What it does:** Outliers are identified as those that lie below the lower bound (Q1 - 1.5 * IQR) or above the upper bound (Q3 + 1.5 * IQR).<br>  
+               **When to use:** For non-normally distributed data or when you don’t assume data follows a bell curve.<br>  
+               **How to apply:** Calculate Q1, Q3, and IQR, and flag data points outside the bounds.<br>               
+               **3. Percentile-based Capping (Winsorization)** <br>               
+               * **What it does:** Limits extreme values by setting them to a certain percentile value (usually the 1st and 99th percentiles).<br>  
+               * **When to use:** When outliers are skewing the data and you want to make the dataset more robust.<br>  
+               * **How to apply:** Cap the outliers at a certain percentile (e.g., replace values above the 99th percentile with the value at the 99th percentile). <br>                   **4. Isolation Forest**    <br>             
+               * **What it does:** A machine learning algorithm that isolates outliers instead of profiling normal data points.<br>  
+               * **When to use:** For high-dimensional datasets or complex relationships.<br>  
+               * **How to apply:** Fit the Isolation Forest model to the data, then classify points as outliers based on isolation score.<br>               
+               **5. DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**<br>               
+               * **What it does:** A clustering algorithm that identifies points as outliers if they do not belong to any cluster.<br>  
+               * **When to use:** In spatial or clustering-based anomaly detection.<br>  
+               * **How to apply:** Use DBSCAN to detect clusters, with points not belonging to any cluster marked as outliers.<br>               
+               **6. Clipping or Truncation**<br>               
+               * **What it does:** Replaces extreme values with the nearest value within a specified threshold (e.g., clip anything above the 95th percentile).<br>  
+               * **When to use:** When you want to minimize the effect of outliers but still retain all data points.<br>  
+               * **How to apply:** Set upper and lower bounds and replace outliers with these bounds.<br>               
+               **7. Robust Regression** <br>               
+               * **What it does:** Instead of removing outliers, this technique reduces their influence during modeling.<br>  
+               * **When to use:** For regression models where outliers may influence the model parameters.<br>  
+               * **How to apply:** Use algorithms like RANSAC or Theil-Sen estimator to build models that are less sensitive to outliers.<br>               
+               **8. Log Transformation**<br>               
+               * **What it does:** Compresses the data and helps reduce the impact of outliers by transforming the data using a logarithmic function.<br>  
+               * **When to use:** When the data is highly skewed and contains extreme values.<br>  
+               * **How to apply:** Apply log transformation to the entire feature to minimize the effect of large values.<br>               
+               **9. Box-Cox Transformation**<br>               
+               * **What it does:** Transforms data to make it more normal and handle extreme outliers by stabilizing variance.<br>  
+               * **When to use:** When you want to transform non-normal data to normal.<br>  
+               * **How to apply:** Apply Box-Cox transformation to adjust data distribution.
 
 ### 4. Feature Engineering
 
