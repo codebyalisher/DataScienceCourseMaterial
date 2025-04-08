@@ -275,7 +275,78 @@ EDA helps you understand the data's underlying patterns, correlations, and distr
    - Derive new features from existing ones (e.g., calculating the age of the car from the year).
 
 **b. Feature Selection**:
-   - Use techniques like correlation matrix, feature importance from tree-based models, or PCA to select important features.
+   - Use techniques like correlation matrix, feature importance from tree-based models, or PCA to select important features.<br>
+     **Feature Selection Techniques**<br>
+
+         **Chi-Square Test of Independence (χ²)** <br>
+         ***What it does:*** Tests if there is a significant relationship between categorical variables.<br>
+         ***When to use:*** For categorical independent and dependent variables.<br>
+         ***How to apply:*** It calculates whether the observed frequency distribution differs significantly from the expected distribution.<br>
+         ***How to apply in Python:*** `chi2()` from `sklearn.feature_selection`.<br>
+         ***Use case:*** Selecting important categorical features by testing if they are independent of the target variable.<br> 
+
+         **ANOVA F-Test (Analysis of Variance)** <br>
+         ***What it does:*** Tests the means of different groups to check if they are significantly different.<br>
+         ***When to use:*** For selecting categorical features when the dependent variable is continuous.<br>
+         ***How to apply:*** It compares the variance between different groups to the variance within groups.<br>
+         ***How to apply in Python:*** `f_classif()` from `sklearn.feature_selection` for classification tasks.<br>
+         ***Use case:*** Checking whether continuous features differ significantly across the categories of the target variable.<br> 
+
+         **Correlation Matrix**<br>
+         ***What it does:*** Measures the linear relationship between features.<br>
+         ***When to use:*** For continuous variables, it helps identify multicollinearity.<br>
+         ***How to apply:*** High correlations between independent features can cause redundancy, and we often drop one of the correlated features.<br>
+         ***How to apply in Python:*** `df.corr()` in pandas to calculate Pearson’s correlation coefficient.<br>
+         ***Use case:*** Identifying highly correlated features and removing one to reduce multicollinearity.<br> 
+
+         **Mutual Information**<br>
+         ***What it does:*** Measures the dependency between variables. It computes the amount of information gained about one feature by knowing another feature.<br>
+         ***When to use:*** Works for both categorical and continuous variables.<br>
+         ***How to apply:*** It is a non-parametric method, and it can be used to measure how much information the independent variables provide about the dependent variable.<br>
+         ***How to apply in Python:*** `mutual_info_classif()` for classification and `mutual_info_regression()` for regression from `sklearn.feature_selection`.<br>
+         ***Use case:*** Feature selection when you need to measure the statistical dependence between variables.<br> 
+
+         **Recursive Feature Elimination (RFE)** <br>
+         ***What it does:*** Recursively removes features and builds a model on the remaining features, and ranks them based on performance.<br>
+         ***When to use:*** When you want an automated process to select the most significant features.<br>
+         ***How to apply:*** It uses cross-validation and model accuracy to eliminate the least important features.<br>
+         ***How to apply in Python:*** `RFE()` from `sklearn.feature_selection`.<br>
+         ***Use case:*** Reducing the number of features in models like linear regression, decision trees, and support vector machines (SVM).<br> 
+
+         **L1 Regularization (Lasso Regression)** <br>
+         ***What it does:*** Regularization technique that penalizes the absolute size of the coefficients, effectively shrinking some coefficients to zero.<br>
+         ***When to use:*** For regression tasks when you want to enforce sparsity in your feature selection.<br>
+         ***How to apply:*** The features with non-zero coefficients are considered important.<br>
+         ***How to apply in Python:*** `Lasso()` from `sklearn.linear_model`.<br>
+         ***Use case:*** Feature selection in high-dimensional datasets or when you want to reduce the model complexity.<br> 
+
+         **Random Forest Feature Importance**<br>
+         ***What it does:*** Measures the importance of each feature in predicting the target by observing how much each feature decreases the impurity in the tree.<br>
+         ***When to use:*** For both classification and regression problems, particularly when dealing with a large number of features.<br>
+         ***How to apply:*** Random forests create decision trees and rank features based on their contribution to reducing entropy.<br>
+         ***How to apply in Python:*** `RandomForestClassifier()` or `RandomForestRegressor()` and check the `feature_importances_` attribute.<br>
+         ***Use case:*** Ranking features based on their importance in a decision tree model.<br> 
+
+         **Boruta Algorithm**<br>
+         ***What it does:*** A wrapper method that uses a Random Forest classifier to perform feature selection, and it works by comparing the importance of each feature with that of a random feature.<br>
+         ***When to use:*** To ensure that you only keep features that carry relevant information.<br>
+         ***How to apply:*** It runs a Random Forest multiple times to determine the relevance of each feature.<br>
+         ***How to apply in Python:*** `BorutaPy()` from the `Boruta` package.<br>
+         ***Use case:*** For selecting important features from a large number of potential predictors in high-dimensional data.<br> 
+
+         **Principal Component Analysis (PCA)**<br>
+         ***What it does:*** Reduces dimensionality by transforming the features into a new set of features (principal components), which capture the most variance in the data.<br>
+         ***When to use:*** For continuous features, particularly when you want to reduce the feature space.<br>
+         ***How to apply:*** The principal components are linear combinations of the original features.<br>
+         ***How to apply in Python:*** `PCA()` from `sklearn.decomposition`.<br>
+         ***Use case:*** Dimensionality reduction and identifying important features that capture most of the variance.<br> 
+
+         **Variance Threshold**<br>
+         ***What it does:*** Removes all features that have a variance below a certain threshold. Features with low variance don’t carry much information.<br>
+         ***When to use:*** When you want to remove features that are almost constant across all samples.<br>
+         ***How to apply:*** Set a threshold below which the features are discarded.<br>
+         ***How to apply in Python:*** `VarianceThreshold()` from `sklearn.feature_selection`.<br>
+         ***Use case:*** Eliminating features with little to no variation across samples, typically useful in high-dimensional datasets.<br>
      
 **c. Why Transformation of Features Are Required?**
    1. Linear Regression --- Gradient Descent --- Global Minima
