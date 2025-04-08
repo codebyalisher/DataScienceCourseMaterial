@@ -149,15 +149,84 @@ EDA helps you understand the data's underlying patterns, correlations, and distr
    - Use faceting in seaborn to create multiple plots based on categorical variables.
 
 ### 3. Data Cleaning and Preprocessing
-
+**0.Handling Imbalanced values**:
+   **Techniques for Handling Imbalanced Data**<br>
+         **Resampling Techniques**<br>
+         **Oversampling (SMOTE)** <br>
+         ***What it does:*** Synthetic Minority Over-sampling Technique (SMOTE) generates synthetic examples to balance the class distribution.<br>
+         ***When to use:*** For highly imbalanced classes (e.g., fraud detection).<br>
+         ***How to apply:*** `SMOTE()` from `imbalanced-learn`.<br> 
+         **Undersampling**<br>
+         ***What it does:*** Reduces the number of majority class instances to balance the dataset.<br>
+         ***When to use:*** When the dataset is very large and removing some majority class instances won’t affect model performance.<br>
+         ***How to apply:*** Use `RandomUnderSampler` from `imbalanced-learn`.<br> 
+         **Class Weights**<br>
+         ***What it does:*** Adjusts the weights of classes during model training to give more importance to minority classes.<br>
+         ***When to use:*** When resampling is not preferred, but you still want to handle class imbalance.<br>
+         ***How to apply:*** Set `class_weight='balanced'` in classifiers like `LogisticRegression` or `RandomForestClassifier`.<br> 
+         **Anomaly Detection**<br>
+         ***What it does:*** Treats the minority class as an anomaly or outlier and uses algorithms designed to detect outliers (e.g., Isolation Forest).<br>
+         ***When to use:*** In cases where the minority class is rare but critical (e.g., fraud detection, disease diagnosis).<br>
+         ***How to apply:*** Use algorithms like `IsolationForest` or `One-Class SVM`<br>
 **a. Handling Missing Values**:
    - Decide whether to impute missing values (using mean, median, mode, or interpolation) or remove them.
+     **Techniques for Handling Missing Values**<br>
+         **Removing Missing Values**<br>
+         ***What it does:*** Simply removes rows or columns that contain missing values.<br>
+         ***When to use:*** When missing data is minimal and won’t affect the dataset significantly.<br>
+         ***How to apply:*** `df.dropna()` in pandas.<br> 
+         **Imputing Missing Values**<br>
+         ***What it does:*** Fills missing values with a calculated value, such as mean, median, or mode.<br>
+         ***When to use:*** When you can’t afford to lose rows or columns with missing data.<br>
+         ***How to apply:*** Use `SimpleImputer()` in `sklearn` for mean/median/mode imputation.<br> 
+         **K-Nearest Neighbors (KNN) Imputation**<br>
+         ***What it does:*** Fills missing values based on the mean of the nearest neighbors.<br>
+         ***When to use:*** When your data points are similar to each other and you want to use relationships to fill in missing values.<br>
+         ***How to apply:*** `KNNImputer()` in `sklearn`.<br> 
+         **Multiple Imputation**<br>
+         ***What it does:*** Imputes missing values multiple times, producing several datasets, and then combines them for analysis.<br>
+         ***When to use:*** When you want to account for uncertainty in the imputed values.<br>
+         ***How to apply:*** Use the `IterativeImputer` or libraries like `fancyimpute`.<br>
 
 **b. Encoding Categorical Variables**:
    - Convert categorical variables to numerical using techniques like one-hot encoding or label encoding.
+     **Techniques for Handling Categorical Data**
+         **Label Encoding**<br>
+         ***What it does:*** Converts categorical labels (like "Red", "Blue", "Green") into numeric values (e.g., 0, 1, 2).<br>
+         ***When to use:*** For ordinal categorical variables where the order matters (e.g., Low < Medium < High).<br>
+         ***How to apply:*** `LabelEncoder()` in Python’s `sklearn` library.<br>         
+         **One-Hot Encoding**<br>
+         ***What it does:*** Converts categorical variables into a set of binary (0 or 1) columns, each representing a category.<br>
+         ***When to use:*** For nominal variables (no inherent order, e.g., "Red", "Blue", "Green").<br>
+         ***How to apply:*** Use `pd.get_dummies()` or `OneHotEncoder` in `sklearn`.<br>         
+         **Ordinal Encoding**<br>
+         ***What it does:*** Assigns each category an integer value based on some predefined order.<br>
+         ***When to use:*** For categorical data with a clear order (e.g., "Low", "Medium", "High").<br>
+         ***How to apply:*** Use `OrdinalEncoder` in `sklearn`.<br>
+         **Target Encoding (Mean Encoding)** <br>
+         ***What it does:*** Replaces categories with the mean of the target variable for each category.<br>
+         ***When to use:*** For high-cardinality categorical variables.<br>
+         ***How to apply:*** You can apply manually or use libraries like `category_encoders`.<br>
 
 **c. Feature Scaling**:
    - Normalize or standardize numerical features if the scale differences are significant.
+     **Techniques for Scaling**<br>
+         **Min-Max Scaling**<br>
+         ***What it does:*** Scales the data to a fixed range, usually between 0 and 1.<br>
+         ***When to use:*** When features need to be on the same scale (e.g., neural networks).<br>
+         ***How to apply:*** `MinMaxScaler()` in `sklearn`.<br> 
+         **Standardization (Z-Score Scaling)** <br>
+         ***What it does:*** Scales data so that it has a mean of 0 and a standard deviation of 1.<br>
+         ***When to use:*** When you want the data to follow a normal distribution.<br>
+         ***How to apply:*** `StandardScaler()` in `sklearn`.<br> 
+         **Robust Scaling**<br>
+         ***What it does:*** Scales the data using the median and the interquartile range (IQR), making it less sensitive to outliers.<br>
+         ***When to use:*** When your data contains outliers.<br>
+         ***How to apply:*** `RobustScaler()` in `sklearn`.<br> 
+         **MaxAbs Scaling**<br>
+         ***What it does:*** Scales each feature by its maximum absolute value, so all values are between -1 and 1.<br>
+         ***When to use:*** For sparse data, or when you don’t want to shift/center the data.<br>
+         ***How to apply:*** `MaxAbsScaler()` in `sklearn`.<br>
 
 **d. Outlier Treatment**:
    - Decide whether to remove or transform outliers based on domain knowledge and their impact on the model. <br>
