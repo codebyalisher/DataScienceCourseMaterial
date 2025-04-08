@@ -119,6 +119,24 @@ https://drive.google.com/drive/folders/1va6VQ7qCsqS5vqOAALAS5Y8QVys9nnwR?usp=sha
 - **Learn from Mistakes**: Don't be discouraged by initial setbacks. Each analysis is a learning opportunity.
 - **Stay Updated**: The field of data science is constantly evolving. Keep learning new techniques and tools.
 
+## Batch Learning vs. Online Learning in Machine Learning
+
+
+| Feature           | Batch Learning                                      | Online Learning                                         |
+|-------------------|-----------------------------------------------------|---------------------------------------------------------|
+| **Data Processing** | Learns on the entire dataset at once.                | Learns on data instances sequentially (one by one or in small batches). |
+| **Training Data** | Requires the entire dataset to be available upfront. | Can start learning with limited data and adapt as new data arrives. |
+| **Computational Cost (Training)** | Can be computationally expensive, especially for large datasets. | Generally less computationally expensive per learning step. |
+| **Memory Usage** | Requires enough memory to hold the entire dataset.     | Requires less memory as data is processed sequentially.    |
+| **Learning Speed** | Training can be slow as it processes the entire dataset. | Learning is faster for each individual data point or small batch. |
+| **Adaptability to New Data** | Requires retraining the entire model on the updated dataset. | Adapts to new data incrementally without full retraining. |
+| **Use Cases** | Suitable for tasks where the dataset is relatively static and fits in memory (e.g., training a model on a fixed historical dataset). | Suitable for tasks with continuous data streams, large datasets that don't fit in memory, and models needing to adapt to changing patterns (e.g., stock price prediction, spam filtering, recommender systems). |
+| **Model Updates** | Model is updated after processing the entire batch.   | Model is updated after processing each instance or small batch. |
+| **Hyperparameter Tuning** | Typically done before training on the entire dataset. | Can be more complex to tune as the data distribution might change over time. |
+| **Sensitivity to Data Order** | Less sensitive to the order of data in the training set. | Can be sensitive to the order of data arrival, especially with high learning rates.<br>[River library for online learning Model](https://riverml.xyz/latest/),  [VowPal Wabbit for online learning](https://vowpalwabbit.org/docs/vowpal_wabbit/python/latest/tutorials/python_first_steps.html) . |
+
+**[Link for Notes for ML Concepts](https://drive.google.com/file/d/1N_9GqQjWSWzX4BDXUJK-q4FwuEVuEKtn/view)**
+
  ### Here's a step-by-step guide to help you through the process:
 
 ### 1. Understanding Your Data
