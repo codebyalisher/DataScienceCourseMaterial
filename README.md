@@ -39,7 +39,10 @@
         **Data Collection:** How will the data be collected and accessed?<br>
         **Data Volume and Quality:** Is there enough data? What is the quality of the data (missing values, inconsistencies, errors)?<br>
         **Data Privacy and Security:** Are there any regulations or ethical considerations related to the data?<br>
-
+   **Data Summary:** <br>
+        **Purpose:** Provides a high-level overview of the dataset.<br>
+   **Column Details:** <br>
+        **Purpose:** Provides a more in-depth look at each individual column.<br>
 5. **Metrics to Measure:**
 
      **Goal:** Defining clear and relevant metrics is crucial for evaluating the performance of the ML model and determining if it effectively solves the business problem.<br>
