@@ -1,4 +1,5 @@
 # DataScienceCourseMaterial
+   - **[Full Complete Everything Roadmap for Data Science](https://github.com/SamBelkacem/AI-ML-cheatsheets)**
    - **[Course for Absolute beginers Website](https://jovian.com/learn/data-analysis-with-python-zero-to-pandas), [YouTube Channel](https://www.youtube.com/@jovianhq/playlists)**
    - **[Overview of Data Science](https://www.linkedin.com/pulse/data-science-methodology-step-by-step-guide-uzair-azmat-5tekf/?trackingId=DOxr4vPTsiNgGbFTdDijoQ%3D%3D)**
    - **[General Concepts](https://www.linkedin.com/pulse/complete-data-analysis-guide-python-uzair-azmat-uavvf/?trackingId=QNtfgWzo5XW04hwg3EPwUQ%3D%3D)**
