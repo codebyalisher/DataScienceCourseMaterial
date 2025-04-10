@@ -140,7 +140,29 @@
             **Actions:** <br>
                  - Summarize issues, observations, and risks
                  - Suggest fixes or improvements
-                 - Present findings visually or in reports (e.g., using Excel, PowerPoint, or dashboards)
+                 - Present findings visually or in reports (e.g., using Excel, PowerPoint, or dashboards) <br>
+         **✅ Data Quality Dimensions (in easy words):** <br>
+            **1. Completeness** <br>
+             **What it means:** Are all the required pieces of data there? <br>
+            * **Example:** If you need someone’s name, email, and phone number — but phone numbers are missing in 40% of the rows, your data isn’t complete.<br>
+            * **Why it matters:** Incomplete data makes your analysis weak or misleading.<br>
+            * **👉 Think of it like a pizza with missing slices 🍕 — it’s not whole.**  <br>          
+            **2. Validity**
+            * **What it means:** Does the data follow the rules it’s supposed to?<br>
+            * **Example:** If a field says “Date of Birth” but some entries say "banana" or "13/45/2021", those are invalid.<br>
+            * **Why it matters:** Invalid data messes up calculations, filters, and logic.<br>
+            * **👉 It’s like putting a square peg in a round hole — it doesn’t fit the rule.**   <br>         
+            **3. Accuracy**            
+            * **What it means:** Is the data correct and true in the real world?<br>
+            * **Example:** If someone’s email is spelled wrong or their salary says $5 instead of $50,000 — that’s inaccurate.<br>
+            * **Why it matters:** Bad data = bad decisions.<br>
+            * **👉 It’s like giving someone the wrong map — they’ll get lost.**  <br>          
+            **4. Consistency**            
+            * **What it means:** Does the data match across systems or entries?<br>
+            * **Example:** If one table says someone's country is "USA" and another says "United States" or even "U.S.", that's inconsistent.<br>
+            * **Or worse — their birthdate is different in two places.** <br>
+            * **Why it matters:** Inconsistent data makes it hard to trust or join data from multiple places. <br>
+            * **👉 Like telling two different stories — people won’t know which one is true.**
 
 **3. Data Preprocessing**
 
