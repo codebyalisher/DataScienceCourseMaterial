@@ -84,7 +84,63 @@
    **Identify Data Sources:** Determine where the necessary data resides (databases, APIs, files, external sources, etc.).<br>
    **Collect Data:** Acquire the data from the identified sources. This might involve scraping, downloading, accessing databases, or setting up data pipelines.<br>
    **Understand the Data:** Explore the data's structure, format, size, and potential biases. Document data sources and collection methods.<br>
-   **Data Governance:** Consider data privacy, security, and compliance requirements.
+   **Data Governance:** Consider data privacy, security, and compliance requirements.<br>
+   **🛠️ Types of Assessment in Data Analytics:**
+      **1. Manual Assessment**      <br>
+          **Description:** Done by visually inspecting data.<br>
+          **Tools:** Usually happens in tools like Excel, Google Sheets, or even raw text files.<br>
+          **Often used for:** <br>
+             - Small datasets
+             - Quick checks
+             - Spot-checking data quality
+          **Examples:** <br>
+             - Scanning a CSV file for missing values
+             - Using filters in Excel to look for outliers
+             - Manually documenting data column meanings    <br>      
+      **2. Programmatic Assessment**      
+          **Description:** Uses code or automated tools to assess and profile data.<br>
+          **Tools:** Python (`pandas`, `pydeequ`), R, SQL, data profiling tools, or even Power BI/ Tableau data views.<br>
+          **Benefits:** Scalable and more accurate for large datasets.<br>
+          **Examples:** <br>
+             - Writing a Python script to check null values, data types, unique values
+             - SQL queries to detect duplicates or invalid data entries
+             - Using `pandas profiling` or `Sweetviz` to generate automated data reports      <br>
+      **🧭 Common Steps in a Data Assessment Process:**      
+         These often follow this rough workflow:      <br>
+         **🔍 1. Discover**      <br>
+             **Goal:** Understand where the data is coming from and what data exists.<br>
+             **Actions:** <br>
+                - Understand data sources (source systems, APIs, databases)
+                - Identify what data exists and what’s missing <br>
+             **Tools:** Data catalog, SQL, API documentation      <br>
+         **🗂️ 2. Document**      
+             **Goal:** Record metadata and create data dictionaries.<br>
+             **Actions:** <br>
+                - Record metadata: column names, data types, units, value ranges, business definitions
+                - Create data dictionaries or schema documentation <br>
+             **Benefits:** Useful for sharing with stakeholders or future analysts     <br>  
+         **🧪 3. Assess (Profile & Quality Check)**      <br>
+             **Goal:** Run data profiling and check for data quality issues. <br>
+             **Actions:** <br>
+                - Run data profiling: Count of nulls, uniques, data types
+                - Calculate descriptive statistics (mean, median, mode, etc.)
+                - Check for:
+                    - Missing values
+                    - Duplicates
+                    - Outliers
+                    - Inconsistencies (e.g., "USA" vs "United States") <br>
+                - **Tooling:** Use automated tools/scripts where possible      <br>
+         **✅ 4. Validate**      <br>
+            **Goal:** Cross-check data against expected values and business rules. <br>
+            **Actions:**  <br>
+                - Cross-check data with source systems or expected values
+                - Confirm that the data matches the business rules     <br> 
+         **📝 5. Report**      
+            **Goal:** Summarize findings and suggest improvements. <br>
+            **Actions:** <br>
+                 - Summarize issues, observations, and risks
+                 - Suggest fixes or improvements
+                 - Present findings visually or in reports (e.g., using Excel, PowerPoint, or dashboards)
 
 **3. Data Preprocessing**
 
