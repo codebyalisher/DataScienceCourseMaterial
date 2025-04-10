@@ -104,7 +104,13 @@
     - **Example:** A bar chart of sales over time to spot any dips or spikes.
   - **Correlation:** Look for relationships between variables.
     - **Example:** See if there’s a link between the amount of advertising spend and sales growth.
-
+#### Why do EDA
+* Model building
+* Analysis and reporting
+* Validate assumptions
+* Handling missing values
+* Feature engineering
+* Detecting outliers
 ---
 
 ## 4. **Conclusions (Drawing Insights and Analysis)**
