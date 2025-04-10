@@ -128,7 +128,14 @@ The shape of a data distribution refers to its overall pattern or form as it is 
    - **Skewed Distribution:** A distribution that is not symmetrical, with one tail being longer than the other. It can be either positively skewed (right-skewed) or negatively skewed (left-skewed).
    - **Bimodal Distribution:** A distribution with two peaks or modes.
    - **Uniform Distribution:** A distribution where all values have an equal chance of occurring. <br>
-The shape of the data is important in identifying the presence of outliers,skewness and type of statistical tests and models that can be used for the furthere analysis.
+The shape of the data is important in identifying the presence of outliers,skewness and type of statistical tests and models that can be used for the furthere analysis.<br>
+**Dispersion** is a statistical term used to describe the spread or variability of a set of data. It measures how far the values in a data set are spread out from the `central tendency (mean, median, or mode)` of the data.<br>
+#### There are several measures of dispersion, including: 
+   - **Range:** The difference between the largest and smallest values in a data set.
+   - **Variance:** The average of the squared deviations of each value from the mean of the data set.
+   - **Standard Deviation:** The square root of the variance. It provides a measure of the spread of the data that is in the same units as the original data.
+   - **Interquartile range (IQR):** The range between the first quartile (25th percentile) and the third quartile (75th percentile) of the data. <br>
+Dispersion helps to describe the spread of the data, which can help to identify the presence of outliers and skewness in the data.
 ---
 
 ## 4. **Conclusions (Drawing Insights and Analysis)**
