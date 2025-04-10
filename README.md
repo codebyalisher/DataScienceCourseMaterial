@@ -142,6 +142,11 @@ Dispersion helps to describe the spread of the data, which can help to identify 
    - **Identifying Outliers:** Identify and examine any outliers in the data. Outliers can be identified using visualizations. It is important to determine whether the outliers are due to measurement errors, data entry errors, or legitimate differences in the data, and to decide whether to include or exclude them from the analysis.
    - **Skewness:** Check for skewness in the data and consider transforming the data or using robust statistical methods that are less sensitive to skewness, if necessary.
    - **Conclusion:** Summarize the findings of the EDA and make decisions about how to proceed with further analysis.
+#### Steps of doing Univariate Analysis on Categorical columns
+   - **Descriptive Statistics:** Compute the frequency distribution of the categories in the column. This will give a general understanding of the distribution of the categories and their relative frequencies.
+   - **Visualizations:** Create visualizations to explore the distribution of the categories. Some common visualizations for categorical data include count plots and pie charts. These visualizations provide a visual representation of the distribution of the categories and can help identify any patterns or anomalies in the data.
+   - **Missing Values:** Check for missing values in the data and decide how to handle them. Missing values can be imputed or excluded from the analysis, depending on the research question and the data set.
+   - **Conclusion:** Summarize the findings of the EDA and make decisions about how to proceed with further analysis.
 ---
 
 ## 4. **Conclusions (Drawing Insights and Analysis)**
