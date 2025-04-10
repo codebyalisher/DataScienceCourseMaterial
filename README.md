@@ -154,7 +154,12 @@
                3. Quality -> Validity <br>
                4. Quality -> Accuracy <br>
                5. Quality -> Consistency <br>
-               This is the way or pattern that we can follow for our data as DA,mean first assign the label to each issue using quality dimensions and then do the cleaning by following the above order.This is not necessary but if we do wtih this we can do easily and fastly as most DA researcher and Expert do follow this.
+               This is the way or pattern that we can follow for our data as DA,mean first assign the label to each issue using quality dimensions and then do the cleaning by following the above order.This is not necessary but if we do wtih this we can do easily and fastly as most DA researcher and Expert do follow this. <br>
+               **Steps involved in Data cleaning** <br>
+                  * Define-->define the solution of each issue like if in col there is NYC and full name ,we will write the dictionary and map the value <br>
+                  * Code-->now we will write the code of that solution <br>
+                  * Test-->now we will test the code and result <br>
+                  `Always make sure to create a copy of your pandas dataframe before you start the cleaning process` <br>
             **1. Completeness** <br>
              **What it means:** Are all the required pieces of data there? <br>
             * **Example:** If you need someone’s name, email, and phone number — but phone numbers are missing in 40% of the rows, your data isn’t complete.<br>
