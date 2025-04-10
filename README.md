@@ -141,7 +141,11 @@
                  - Summarize issues, observations, and risks
                  - Suggest fixes or improvements
                  - Present findings visually or in reports (e.g., using Excel, PowerPoint, or dashboards) <br>
-         **✅ Data Quality Dimensions (in easy words):** <br>
+         **✅ Data Quality Dimensions (in easy words):** <br>      
+            * **Completeness** -> is data missing? <br>
+            * **Validity** -> is data invalid -> negative height -> duplicate patient id <br>
+            * **Accuracy** -> data is valid but not accurate -> weight -> 1kg <br>
+            * **Consistency** -> both valid and accurate but written differently -> New Youk and NY <br>
             **1. Completeness** <br>
              **What it means:** Are all the required pieces of data there? <br>
             * **Example:** If you need someone’s name, email, and phone number — but phone numbers are missing in 40% of the rows, your data isn’t complete.<br>
