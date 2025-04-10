@@ -146,6 +146,15 @@
             * **Validity** -> is data invalid -> negative height -> duplicate patient id <br>
             * **Accuracy** -> data is valid but not accurate -> weight -> 1kg <br>
             * **Consistency** -> both valid and accurate but written differently -> New Youk and NY <br>
+            **Order of severity** <br>
+               Completeness <- Validity <- Accuracy <- Consistency            <br>   
+            **Data Cleaning Order** <br>
+               1. Quality -> Completeness <br>
+               2. Tidiness <br>
+               3. Quality -> Validity <br>
+               4. Quality -> Accuracy <br>
+               5. Quality -> Consistency <br>
+               This is the way or pattern that we can follow for our data as DA,mean first assign the label to each issue using quality dimensions and then do the cleaning by following the above order.This is not necessary but if we do wtih this we can do easily and fastly as most DA researcher and Expert do follow this.
             **1. Completeness** <br>
              **What it means:** Are all the required pieces of data there? <br>
             * **Example:** If you need someone’s name, email, and phone number — but phone numbers are missing in 40% of the rows, your data isn’t complete.<br>
