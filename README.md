@@ -85,7 +85,7 @@
    **Collect Data:** Acquire the data from the identified sources. This might involve scraping, downloading, accessing databases, or setting up data pipelines.<br>
    **Understand the Data:** Explore the data's structure, format, size, and potential biases. Document data sources and collection methods.<br>
    **Data Governance:** Consider data privacy, security, and compliance requirements.<br>
-   **🛠️ Types of Assessment in Data Analytics:**
+   **🛠️ Types of Assessment(mean to find the issues in the data) in Data Analytics:** <br>
       **1. Manual Assessment**      <br>
           **Description:** Done by visually inspecting data.<br>
           **Tools:** Usually happens in tools like Excel, Google Sheets, or even raw text files.<br>
