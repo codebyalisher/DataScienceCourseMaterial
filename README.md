@@ -111,6 +111,18 @@
 * Handling missing values
 * Feature engineering
 * Detecting outliers
+
+`For convenience to Perform EDA ,assign the Each Column with these labels`
+#### Column Types
+   **Numerical** - Age,Fare,PassengerId <br>
+   **Categorical** - Survived, Pclass, Sex, SibSp, Parch, Embarked <br>
+   **Mixed** - Name, Ticket, Cabin
+   
+#### Univariate Analysis
+   Univariate analysis focuses on analyzing each feature in the dataset independently.   
+   **Distribution analysis:** The distribution of each feature is examined to identify its shape, central tendency, and dispersion. <br>
+   **Identifying potential issues:** Univariate analysis helps in identifying potential problems with the data such as outliers, skewness, and missing values.
+   
 ---
 
 ## 4. **Conclusions (Drawing Insights and Analysis)**
