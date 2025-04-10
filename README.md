@@ -136,6 +136,12 @@ The shape of the data is important in identifying the presence of outliers,skewn
    - **Standard Deviation:** The square root of the variance. It provides a measure of the spread of the data that is in the same units as the original data.
    - **Interquartile range (IQR):** The range between the first quartile (25th percentile) and the third quartile (75th percentile) of the data. <br>
 Dispersion helps to describe the spread of the data, which can help to identify the presence of outliers and skewness in the data.
+#### Steps of doing Univariate Analysis on Numerical columns
+   - **Descriptive Statistics:** Compute basic summary statistics for the column, such as mean, median, mode, standard deviation, range, and quartiles. These statistics give a general understanding of the distribution of the data and can help identify skewness or outliers.
+   - **Visualizations:** Create visualizations to explore the distribution of the data. Some common visualizations for numerical data include histograms, box plots, and density plots. These visualizations provide a visual representation of the distribution of the data and can help identify skewness and outliers.
+   - **Identifying Outliers:** Identify and examine any outliers in the data. Outliers can be identified using visualizations. It is important to determine whether the outliers are due to measurement errors, data entry errors, or legitimate differences in the data, and to decide whether to include or exclude them from the analysis.
+   - **Skewness:** Check for skewness in the data and consider transforming the data or using robust statistical methods that are less sensitive to skewness, if necessary.
+   - **Conclusion:** Summarize the findings of the EDA and make decisions about how to proceed with further analysis.
 ---
 
 ## 4. **Conclusions (Drawing Insights and Analysis)**
