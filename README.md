@@ -84,16 +84,16 @@
 - **What it is:** Data wrangling is about **collecting, preparing, and cleaning** data for analysis. It’s the behind-the-scenes work that makes sure your data is in a usable form.
   
 #### Key Steps in Data Wrangling:
-  - **Data Gathering:** Collect data from various sources like databases, spreadsheets, APIs, etc.
+  - **Data Gathering:** Collect data from various sources like databases, spreadsheets, APIs, etc. **[Youtube Link](https://youtu.be/dA6ZksRR6aw?si=9TAiQx9H0nVO-b-g)**
     - **Example:** Getting sales data from a database and customer feedback from an Excel file.
-  - **Data Assessing:** Check the quality and structure of the data (looking for missing values, duplicates, outliers, etc.)
+  - **Data Assessing:** Check the quality and structure of the data (looking for missing values, duplicates, outliers, etc.) **[Youtube Link](https://www.youtube.com/live/-HnN8GBINnc?si=FRvFLaTKdtKalwGK)**
     - **Example:** Reviewing if some values are missing, incorrect, or formatted wrong.
   - **Data Cleaning:** Fix issues found in the assessing stage. Remove or fill missing data, correct errors, or standardize formats.
     - **Example:** If "USA" is written in different ways, you’ll standardize it to one format ("United States").
 
 ---
 
-## 3. **Exploratory Data Analysis (EDA)**
+## 3. **Exploratory Data Analysis (EDA) [Youtube Link](https://www.youtube.com/watch?v=PPEHpg2RixQ&list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z&index=91)** 
 
 - **What it is:** This step is all about **understanding the data**. You explore and analyze it to look for patterns, trends, or relationships.
   
