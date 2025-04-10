@@ -68,6 +68,80 @@
           **Time Series Forecasting:** Assumes stationarity or specific patterns in the time series data.<br>
       **Importance:** Violating these assumptions can lead to poorly performing or unreliable models. This step might involve statistical tests, visualizations, and domain expertise to validate the assumptions.
 
+## 5-Step Data Analyst Process
+
+## 1. **Asking for the Problem (Understanding the Business Question)**
+
+- **What it is:** Before jumping into any data, the first step is to **understand the problem** you're trying to solve. This is where you communicate with stakeholders (like business leaders, managers, or clients) to know exactly what they need from the data.
+- **Why it matters:** If you don’t understand the question, you might analyze the wrong data or go down the wrong path.
+  
+**Example:** If a company asks, "What’s causing a drop in sales?" you’ll need to figure out what kind of data might help answer that, like sales trends, customer feedback, or inventory data.
+
+---
+
+## 2. **Data Wrangling (Data Gathering, Assessing, and Cleaning)**
+
+- **What it is:** Data wrangling is about **collecting, preparing, and cleaning** data for analysis. It’s the behind-the-scenes work that makes sure your data is in a usable form.
+  
+#### Key Steps in Data Wrangling:
+  - **Data Gathering:** Collect data from various sources like databases, spreadsheets, APIs, etc.
+    - **Example:** Getting sales data from a database and customer feedback from an Excel file.
+  - **Data Assessing:** Check the quality and structure of the data (looking for missing values, duplicates, outliers, etc.)
+    - **Example:** Reviewing if some values are missing, incorrect, or formatted wrong.
+  - **Data Cleaning:** Fix issues found in the assessing stage. Remove or fill missing data, correct errors, or standardize formats.
+    - **Example:** If "USA" is written in different ways, you’ll standardize it to one format ("United States").
+
+---
+
+## 3. **Exploratory Data Analysis (EDA)**
+
+- **What it is:** This step is all about **understanding the data**. You explore and analyze it to look for patterns, trends, or relationships.
+  
+#### EDA includes:
+  - **Descriptive Statistics:** Check things like the mean, median, and standard deviation to understand the central tendencies of your data.
+    - **Example:** Calculate the average sales per month.
+  - **Visualizations:** Create charts like histograms, bar graphs, and scatter plots to get a quick feel for data trends.
+    - **Example:** A bar chart of sales over time to spot any dips or spikes.
+  - **Correlation:** Look for relationships between variables.
+    - **Example:** See if there’s a link between the amount of advertising spend and sales growth.
+
+---
+
+## 4. **Conclusions (Drawing Insights and Analysis)**
+
+- **What it is:** After exploring the data, it’s time to **interpret the results**. This step involves making sense of the findings and drawing actionable insights.
+  
+#### Here’s what happens:
+  - **Answer the business question:** Relate your findings back to the original problem.
+    - **Example:** "Sales are dropping in regions with lower ad spend."
+  - **Find patterns:** Identify any trends, anomalies, or correlations that will help solve the problem.
+    - **Example:** You notice that higher customer satisfaction scores correlate with repeat purchases.
+
+---
+
+## 5. **Presenting in Front of Others (Communicating Results)**
+
+- **What it is:** The final step is **communicating your findings** clearly to the stakeholders (whether it’s in a meeting, report, or dashboard). It’s important to explain the data insights in a way that’s easy to understand for non-technical audiences.
+  
+#### Tips for Effective Presentation:
+  - **Tell a story:** Present your analysis like a story with a clear beginning, middle, and end.
+    - **Example:** "Here’s how the advertising spend affected sales, and here’s what we should do moving forward."
+  - **Visualize findings:** Use charts, graphs, or dashboards to make your insights easier to digest.
+    - **Example:** A line graph showing how sales grew with increased ad spend.
+  - **Provide actionable recommendations:** Based on your analysis, suggest next steps.
+    - **Example:** "I recommend increasing ad spend by 10% in underperforming regions."
+
+---
+
+## **Putting It All Together**
+
+Here’s a summary of how the steps flow:
+1. **Ask the right question** – Understand the problem.
+2. **Wrangle the data** – Gather, assess, and clean it up.
+3. **Explore the data** – Perform EDA (visuals and stats).
+4. **Draw conclusions** – Analyze findings and make sense of them.
+5. **Present results** – Share insights clearly and take action.
+
 
 ## End-to-End Machine Learning Development Life Cycle (MLDLC)
 
