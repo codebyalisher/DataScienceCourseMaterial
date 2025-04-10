@@ -147,6 +147,19 @@ Dispersion helps to describe the spread of the data, which can help to identify 
    - **Visualizations:** Create visualizations to explore the distribution of the categories. Some common visualizations for categorical data include count plots and pie charts. These visualizations provide a visual representation of the distribution of the categories and can help identify any patterns or anomalies in the data.
    - **Missing Values:** Check for missing values in the data and decide how to handle them. Missing values can be imputed or excluded from the analysis, depending on the research question and the data set.
    - **Conclusion:** Summarize the findings of the EDA and make decisions about how to proceed with further analysis.
+#### Steps of doing Bivariate Analysis
+   **Select 2 cols**  <br>
+   ***Understand type of relationship*** <br>
+       1. **Numerical - Numerical** <br>
+           a. You can plot graphs like scatterplot (regression plots), 2D histplot, 2D KDEplots <br>
+           b. Check correlation coefficient to check linear relationship <br>
+       2. **Numerical - Categorical** - create visualizations that compare the distribution of the numerical data across different categories of the categorical data. <br>
+           a. You can plot graphs like barplot, boxplot, kdeplot violinplot even scatterplots<br>
+       3. **Categorical - Categorical** <br>
+           a. You can create cross-tabulations or contingency tables that show the distribution of values in one categorical column, grouped by the values in the other categorical column. <br>
+           b. You can plot graphs like heatmap, stacked barplots, treemaps <br>
+   **Write your conclusions**
+
 ---
 
 ## 4. **Conclusions (Drawing Insights and Analysis)**
