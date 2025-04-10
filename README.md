@@ -121,8 +121,14 @@
 #### Univariate Analysis
    Univariate analysis focuses on analyzing each feature in the dataset independently.   
    **Distribution analysis:** The distribution of each feature is examined to identify its shape, central tendency, and dispersion. <br>
-   **Identifying potential issues:** Univariate analysis helps in identifying potential problems with the data such as outliers, skewness, and missing values.
-   
+   **Identifying potential issues:** Univariate analysis helps in identifying potential problems with the data such as outliers, skewness, and missing values. <br>
+The shape of a data distribution refers to its overall pattern or form as it is represented on a graph. Some common shapes of data distributions include:
+
+   - **Normal Distribution:** A symmetrical and bell-shaped distribution where the mean, median, and mode are equal and the majority of the data falls in the middle of the distribution with gradually decreasing frequencies towards the tails.
+   - **Skewed Distribution:** A distribution that is not symmetrical, with one tail being longer than the other. It can be either positively skewed (right-skewed) or negatively skewed (left-skewed).
+   - **Bimodal Distribution:** A distribution with two peaks or modes.
+   - **Uniform Distribution:** A distribution where all values have an equal chance of occurring. <br>
+The shape of the data is important in identifying the presence of outliers,skewness and type of statistical tests and models that can be used for the furthere analysis.
 ---
 
 ## 4. **Conclusions (Drawing Insights and Analysis)**
