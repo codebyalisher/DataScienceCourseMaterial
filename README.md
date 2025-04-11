@@ -117,7 +117,7 @@
    **Numerical** - Age,Fare,PassengerId <br>
    **Categorical** - Survived, Pclass, Sex, SibSp, Parch, Embarked <br>
    **Mixed** - Name, Ticket, Cabin
-   
+#### Try to change the dtype of columns if possible as it reduces the memory   
 #### Univariate Analysis
    Univariate analysis focuses on analyzing each feature in the dataset independently.   
    **Distribution analysis:** The distribution of each feature is examined to identify its shape, central tendency, and dispersion. <br>
