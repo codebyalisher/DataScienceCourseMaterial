@@ -675,6 +675,8 @@ ax.legend()
 plt.tight_layout()
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/8a4eec7e-d67a-4947-bde1-318bb280db4e)
+
 
 4. **Select the Top Eigenvector**  
    - This becomes the **first principal component** (PC1)  
