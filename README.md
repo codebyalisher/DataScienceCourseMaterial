@@ -51,6 +51,157 @@
            **Regression:** Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), R-squared.<br>
            **Unsupervised Learning:** Silhouette Score, Davies-Bouldin Index (though often more subjective).<br>
       **Business Alignment:** The chosen metrics should align with the business objectives defined in the first step. For example, in a fraud detection system, recall (minimizing missed fraud cases) might be more critical than overall accuracy.<br>
+            **📈 Regression Metrics with**
+      
+      These metrics evaluate how well a regression model predicts continuous values.
+      
+      ---
+      
+      #### 1. MAE (Mean Absolute Error)
+      
+      - **What**: Average of absolute differences between actual and predicted values.  
+      - **Formula**:  
+        ```
+        MAE = (1/n) * Σ |yᵢ - ŷᵢ|
+        ```
+      - **Intuition**: "On average, how much is the model off?"
+      - **Reason**: Useful when you want a simple, interpretable measure of average error **without penalizing outliers too heavily**.
+      
+      ---
+      
+      #### 2. MSE (Mean Squared Error)
+      
+      - **What**: Average of squared differences between actual and predicted values.  
+      - **Formula**:  
+        ```
+        MSE = (1/n) * Σ (yᵢ - ŷᵢ)²
+        ```
+      - **Intuition**: Penalizes larger errors more.
+      - **Reason**: Helps **catch and penalize outliers more harshly**. Ideal when large errors are more problematic.
+      
+      ---
+      
+      #### 3. RMSE (Root Mean Squared Error)
+      
+      - **What**: Square root of the MSE.  
+      - **Formula**:  
+        ```
+        RMSE = sqrt((1/n) * Σ (yᵢ - ŷᵢ)²)
+        ```
+      - **Intuition**: Same units as the target variable.
+      - **Reason**: Makes MSE more interpretable by putting it **back in the same units as the output**. Still emphasizes big errors.
+      
+      ---
+      
+      #### 4. R² Score (Coefficient of Determination)
+      
+      - **What**: Proportion of variance in the target explained by the model.  
+      - **Formula**:  
+        ```
+        R² = 1 - [Σ (yᵢ - ŷᵢ)² / Σ (yᵢ - ȳ)²]
+        ```
+      - **Intuition**: 1 = perfect, 0 = as good as mean prediction.
+      - **Reason**: Tells you **how much better your model is than a baseline model that just predicts the mean**.
+      
+      ---
+      
+      #### 5. Adjusted R² Score
+      
+      - **What**: Penalized R² that adjusts for number of features.  
+      - **Formula**:  
+        ```
+        Adjusted R² = 1 - [(1 - R²) * (n - 1) / (n - k - 1)]
+        ```
+        - `n` = number of samples  
+        - `k` = number of features
+      
+      - **Intuition**: Decreases if adding new features doesn’t improve the model enough.
+      - **Reason**: Prevents **overfitting** by penalizing unnecessary predictors.
+      
+      ---
+      
+      #### 📊 Regression Metric Comparison
+      
+      | Metric         | Penalizes Big Errors? | Same Units as Target? | Range           | Goal               | Reason |
+      |----------------|-----------------------|------------------------|------------------|--------------------|--------|
+      | MAE            | ❌ No                 | ✅ Yes                 | ≥ 0              | Lower is better    | Simple average error |
+      | MSE            | ✅ Yes               | ❌ No                  | ≥ 0              | Lower is better    | Highlights big errors |
+      | RMSE           | ✅ Yes               | ✅ Yes                 | ≥ 0              | Lower is better    | Interpretable MSE |
+      | R²             | ❌ No                | ❌ Unitless            | (-∞, 1]          | Higher is better   | Compares to baseline |
+      | Adjusted R²    | ❌ No (adds penalty)  | ❌ Unitless            | (-∞, 1]          | Higher is better   | Prevents overfitting |
+      
+      ---
+      
+      #### 🤖 Classification Metrics with Reasons
+      
+      These metrics help evaluate classification models, especially when **accuracy alone is misleading**.
+      
+      ---
+      
+      #### 🧩 Confusion Matrix
+      
+      |               | Predicted ✅ | Predicted ❌ |
+      |---------------|-------------|--------------|
+      | **Actual ✅**  | TP (True Positive)  | FN (False Negative) |
+      | **Actual ❌**  | FP (False Positive) | TN (True Negative)  |
+      
+      ---
+      
+      #### 1. Accuracy
+      
+      - **What**: Overall proportion of correct predictions.  
+      - **Formula**:  
+        ```
+        Accuracy = (TP + TN) / (TP + TN + FP + FN)
+        ```
+      - **Reason**: Easy to understand and works well **only when classes are balanced**.
+      - **Limitation**: Can be **misleading for imbalanced datasets**.
+      
+      ---
+      
+      #### 2. Precision
+      
+      - **What**: Of predicted positives, how many were actually correct?  
+      - **Formula**:  
+        ```
+        Precision = TP / (TP + FP)
+        ```
+      - **Reason**: Important when **false positives are costly**, e.g., flagging legit users as fraud.
+      
+      ---
+      
+      #### 3. Recall (Sensitivity / True Positive Rate)
+      
+      - **What**: Of actual positives, how many did the model correctly identify?  
+      - **Formula**:  
+        ```
+        Recall = TP / (TP + FN)
+        ```
+      - **Reason**: Important when **false negatives are costly**, e.g., missing cancer diagnoses.
+      
+      ---
+      
+      #### 4. F1 Score
+      
+      - **What**: Harmonic mean of precision and recall.  
+      - **Formula**:  
+        ```
+        F1 Score = 2 * (Precision * Recall) / (Precision + Recall)
+        ```
+      - **Reason**: Balances precision and recall, useful when you need **both false positives and false negatives controlled**.
+      
+      ---
+      
+      #### 🎯 Classification Metric Use-Cases
+      
+      | Metric     | Focus                    | Best When…                             | Reason |
+      |------------|--------------------------|----------------------------------------|--------|
+      | Accuracy   | Overall correctness       | Data is balanced                       | Fast and intuitive |
+      | Precision  | Quality of positives      | False positives are costly (e.g. spam) | Focus on being right when predicting positive |
+      | Recall     | Quantity of positives     | False negatives are costly (e.g. cancer) | Don't miss true positives |
+      | F1 Score   | Balance between both      | You need both precision & recall       | Compromise when both are important |
+
+
 
 6. **Online Vs Batch?**
 
