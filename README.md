@@ -336,6 +336,7 @@ Dispersion helps to describe the spread of the data, which can help to identify 
     - **Example:** A line graph showing how sales grew with increased ad spend.
   - **Provide actionable recommendations:** Based on your analysis, suggest next steps.
     - **Example:** "I recommend increasing ad spend by 10% in underperforming regions."
+    - **[Graphy for story telling of graphs](https://graphy.app/)** --> `Graphy enables anyone to become a skilled data storyteller, by radically simplifying the way data is presented and communicated.`
 
 ---
 
@@ -775,7 +776,9 @@ In both cases, PCA finds the direction (not necessarily X or Y) where the data i
    **Train Model(s):** Train the selected model(s) using the training data.<br>
    **Evaluate Model(s):** Assess the performance of the trained model(s) on the validation set using the chosen success metrics.<br>
    **Hyperparameter Tuning:** Optimize the model's hyperparameters using techniques like grid search, random search, or Bayesian optimization to achieve the best performance on the validation set.<br>
-   **Model Selection:** Choose the best-performing model based on the evaluation results on the validation set.
+   **Model Selection:** Choose the best-performing model based on the evaluation results on the validation set.<br>[Hypothesis Testing](https://media.licdn.com/dms/document/media/v2/D4E1FAQG7DypLIylbmw/feedshare-document-pdf-analyzed/B4EZXSSaTuG0AY-/0/1742989815533?e=1745452800&v=beta&t=1Ab98o5m_sm6V1O7JMD24uxeK2R0NkqkL21B4O35AHA), 
+   [Data Cleaning-Pipeline](https://media.licdn.com/dms/document/media/v2/D4E1FAQGRmsf_NRKd1g/feedshare-document-pdf-analyzed/B4EZYaAwW7HMAY-/0/1744193144485?e=1745452800&v=beta&t=Tfjy8CdfwDRSJb3sFhy4ctiQr6OQHGiVYdK6rjSYXOY), [Supervised Learning-Part-1](https://media.licdn.com/dms/document/media/v2/D4E1FAQEWkXpgbDTMUw/feedshare-document-pdf-analyzed/B4EZYkePEmHkAc-/0/1744368647089?e=1745452800&v=beta&t=V_sjpjyWvYhedxd0m0P3Pl_KXP7jv9f_0T_yPeOwijM), [Supervised Learning Models-Part-2](https://media.licdn.com/dms/document/media/v2/D4E1FAQHExMVYi9daXA/feedshare-document-pdf-analyzed/B4EZYz07T2HMAY-/0/1744626255012?e=1745452800&v=beta&t=H23uzJltP8seoNU-OOUhhr-IKUPaXos35mOam-mWO14), [SL-Part-3](https://media.licdn.com/dms/document/media/v2/D4E1FAQEoBnvJxqTbmQ/feedshare-document-pdf-analyzed/B4EZYVbaegHcAc-/0/1744116242941?e=1745452800&v=beta&t=naL83bHmWfB-6SBugtXmFfNgaLwfSOOas_kjPdYQYkk),<br> [UnSupervised Learning-Part-1](https://media.licdn.com/dms/document/media/v2/D4E1FAQFh63wlB63j6A/feedshare-document-pdf-analyzed/B4EZX7FS.FHcAo-/0/1743674242420?e=1745452800&v=beta&t=52lelWSXEci9xsJfdSJLu6q6BxyR5PUuzLj6MrWIVAQ) , 
+   [Business Analytics-Part-1](https://media.licdn.com/dms/document/media/v2/D4E1FAQHwey8DoVmmyw/feedshare-document-pdf-analyzed/B4EZXHx22ZG0AY-/0/1742813498965?e=1745452800&v=beta&t=oMvu8J65rx-79PFSxpEty1axiI-B7vXFpJkN0RtDCu0), [BA-Part-2](https://media.licdn.com/dms/document/media/v2/D4E1FAQFNQ_trs718lA/feedshare-document-pdf-analyzed/B4EZW4BY_vHgAY-/0/1742549142065?e=1745452800&v=beta&t=gz42Ql7eVUwkB4NVtRoaHqt_3ei5OOzHBZqvVqbTB84), [BA-Part-3](https://media.licdn.com/dms/document/media/v2/D4E1FAQEGjm_yOKF1iQ/feedshare-document-pdf-analyzed/B4EZWtxhcuH0AY-/0/1742377206901?e=1745452800&v=beta&t=NMxWYnwgoVCjPurKGftx3oC5a6V7vEug2a8vjX-clIA), [BA-Part-4](https://media.licdn.com/dms/document/media/v2/D4E1FAQGEDljjcjSAHQ/feedshare-document-pdf-analyzed/B4EZW9bOpVH0AY-/0/1742639792784?e=1745452800&v=beta&t=PqJbggVe10JjYBTG13F_OQUJJlpBrV23X0EhSEoEz1A)
 
 **7. Model Deployment**
 
