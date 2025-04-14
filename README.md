@@ -533,6 +533,9 @@ Y: [1, 2, 3, 4, 5]
 
 3. **Sort Eigenvectors by Eigenvalues (Descending Order)**  
    - Higher eigenvalue = more spread (information) in that direction
+     ```python
+     An eigenvector of a square n×n n × n matrix A is a non-zero vector x such that, when x is multiplied on the left by A , it yields a constant multiple of x . That is: Ax=λx. A x = λ x . The number λ is called the eigenvalue of A corresponding to the eigenvector x.this mean that matrix or a number which is most of the time said scalar ,so as this is applied linear transformation or matrix it changes the magnitude not direction with respect to spread of data points or values,so matrix applying is simple mean scalar which is changing the scale/magnitude of the eigen vectors.
+     ```
 
 4. **Select the Top Eigenvector**  
    - This becomes the **first principal component** (PC1)  
