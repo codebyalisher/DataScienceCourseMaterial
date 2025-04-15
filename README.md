@@ -1102,7 +1102,7 @@ https://drive.google.com/drive/folders/1va6VQ7qCsqS5vqOAALAS5Y8QVys9nnwR?usp=sha
 
 - **Date/Time Variables**: These represent timestamps and can be used for time-series analysis.
   - Convert to datetime format using `pd.to_datetime(df['column_name'])`.
-
+- **A random variable**: is not random itself, but rather a function that applies logic to events from the sample space and gives a numerical representation for further analysis.
 #### Missing Data
 - Identify missing values using `df.isnull().sum()`.
 - Decide whether to fill missing values (e.g., with the mean or median), impute them (e.g., using forward fill), or drop rows/columns with missing data.
