@@ -1071,7 +1071,8 @@ This is your **Loss Function (MSE)** — it measures how far off your prediction
 
 This is the **Mean Squared Error (MSE)** — it tells us how off our predictions are.
 
-To minimize error, we take **partial derivatives** with respect to $m$ and $b$, set them to 0, and solve.
+To minimize error, we take **partial derivatives** with respect to $m$ and $b$, set them to =0, and solve.
+![image](https://github.com/user-attachments/assets/27fb74b7-0670-436d-87f9-6d1c006fb52a)
 
 ---
 
