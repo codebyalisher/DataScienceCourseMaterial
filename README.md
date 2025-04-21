@@ -496,7 +496,9 @@ When we look at a **single feature** (one axis), **variance** tells us how much 
 - A highly variable feature can help us **distinguish between different data points**.
 
 👉 So, for selecting important individual features, a **high variance is often a good sign**.
+In feature engineering, high variance in a feature means it's potentially more informative.
 
+Features with very low variance (almost constant) might be dropped — because they don't differentiate data points well.
 ---
 
 #### 🔹 2. Covariance – Looking at Two Features (Two Axes)
