@@ -239,7 +239,8 @@
 #### Key Steps in Data Wrangling:
   - **Data Gathering:** Collect data from various sources like databases, spreadsheets, APIs, etc. **[Youtube Link](https://youtu.be/dA6ZksRR6aw?si=9TAiQx9H0nVO-b-g)**
     - **Example:** Getting sales data from a database and customer feedback from an Excel file.
-  - **Data Assessing:** Check the quality and structure of the data (looking for missing values, duplicates, outliers, etc.) **[Youtube Link](https://www.youtube.com/live/-HnN8GBINnc?si=FRvFLaTKdtKalwGK)**
+  - **Data Assessing:** to understand the data deeply before cleaning, Check the quality and structure of the data (looking for missing values, duplicates, outliers, etc.) **[Youtube Link](https://www.youtube.com/live/-HnN8GBINnc?si=FRvFLaTKdtKalwGK)**
+    - **types**: two types of data--> **1)Dirty data:** which has the quality issues like missing,corrupt or inaccurate data. **2)Messy data:** data with tidiness isues mean structural issues. in it each variable form a column,each observations form a row,each observational unit forms a table
     - **Example:** Reviewing if some values are missing, incorrect, or formatted wrong.
   - **Data Cleaning:** Fix issues found in the assessing stage. Remove or fill missing data, correct errors, or standardize formats.
     - **Example:** If "USA" is written in different ways, you’ll standardize it to one format ("United States").
