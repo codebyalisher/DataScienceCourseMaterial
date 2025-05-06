@@ -12,7 +12,13 @@
    - ![image](https://github.com/user-attachments/assets/55ed051a-12ac-4c6b-a73a-79dbf2fb3ccc)
    - ![image](https://github.com/user-attachments/assets/ea6018a6-a199-459a-b1fa-9e96d365a85c),
    - ![image](https://github.com/user-attachments/assets/94a9acdc-eaa4-478e-b337-27f805f8cb1a),
-   - ![image](https://github.com/user-attachments/assets/4af42d7f-696b-459a-86d1-9fc79bcec83c)
+   - ![image](https://github.com/user-attachments/assets/4af42d7f-696b-459a-86d1-9fc79bcec83c),
+   - ![image](https://github.com/user-attachments/assets/572f1f3b-6c45-409c-b442-fe6610c9f2da),
+   - ![image](https://github.com/user-attachments/assets/3ce887b8-f79e-449d-823f-e50a2ce61cd8),
+   - ![image](https://github.com/user-attachments/assets/b8d8144f-c228-4c3c-829e-7a8aa6a3fe51)
+
+
+
 ## How to Start the Project regarding any Domain's Problem
 1. **Business Problem to ML Problem:**
 
