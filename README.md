@@ -6,8 +6,13 @@
    - **[General Concepts](https://www.linkedin.com/pulse/complete-data-analysis-guide-python-uzair-azmat-uavvf/?trackingId=QNtfgWzo5XW04hwg3EPwUQ%3D%3D)**
    - **[ML algorithms overview](https://media.licdn.com/dms/image/v2/D5622AQFM4BFXG2EbIg/feedshare-shrink_1280/B56ZZdEfgOHUAk-/0/1745318186007?e=1748476800&v=beta&t=woqQgZYUSOvDxL52W7WS0ic3l5ZCE8o67SK4ZRpx1hw), [ML Algorithms regressions](https://www.youtube.com/watch?v=UZPfbG0jNec&list=PLKnIA16_Rmva-wY_HBh1gTH32ocu2SoTr), [ML Algorithms Gradient Descent](https://www.youtube.com/watch?v=ORyfPJypKuU&list=PLKnIA16_RmvZvBbJex7T84XYRmor3IPK1), [Gradient Boosting](https://www.youtube.com/watch?v=fbKz7N92mhQ&list=PLKnIA16_RmvaMPgWfHnN4MXl3qQ1597Jw) ,[Logsitic Regression](https://www.youtube.com/watch?v=XNXzVfItWGY&list=PLKnIA16_Rmvb-ZTsM1QS-tlwmlkeGSnru), [PCA](https://www.youtube.com/watch?v=ToGuhynu-No&list=PLKnIA16_RmvYHW62E_lGQa0EFsph2NquD), [Random Forest](https://www.youtube.com/watch?v=ToGuhynu-No&list=PLKnIA16_RmvYHW62E_lGQa0EFsph2NquD),[Adaboost](https://www.youtube.com/watch?v=sFKnP0iP0K0&list=PLKnIA16_RmvZxriy68dPZhorB8LXP1PY6),[XgBoost](https://www.youtube.com/watch?v=BTLB-ppqBZc&list=PLKnIA16_RmvbXJbBW4zCy4Xbr81GRyaC4), [Kmeans Clustering](https://www.youtube.com/watch?v=5shTLzwAdEc&list=PLKnIA16_RmvbA_hYXlRgdCg9bn8ZQK2z9),[Bagging ensemble](https://www.youtube.com/watch?v=LUiBOAy7x6Y&list=PLKnIA16_RmvZ7iKIcJrLjUoFDEeSejRpn)**
    - **[Time Series Analysis](https://www.youtube.com/watch?v=A3fowDMo8mM)**
-   - **[Deep Learning]-->(![image](https://github.com/user-attachments/assets/25399f79-ba51-4be0-8b4c-cd29de797b40)
-)**
+   - [Deep Learning]-->(![image](https://github.com/user-attachments/assets/25399f79-ba51-4be0-8b4c-cd29de797b40),
+   - ![image](https://github.com/user-attachments/assets/148bb979-96fb-463b-b061-72d80cb5d281),
+   - ![image](https://github.com/user-attachments/assets/e86c76c0-3682-4539-b341-eab5ca2ed11e),
+   - ![image](https://github.com/user-attachments/assets/55ed051a-12ac-4c6b-a73a-79dbf2fb3ccc)
+   - ![image](https://github.com/user-attachments/assets/ea6018a6-a199-459a-b1fa-9e96d365a85c),
+   - ![image](https://github.com/user-attachments/assets/94a9acdc-eaa4-478e-b337-27f805f8cb1a),
+   - ![image](https://github.com/user-attachments/assets/4af42d7f-696b-459a-86d1-9fc79bcec83c)
 ## How to Start the Project regarding any Domain's Problem
 1. **Business Problem to ML Problem:**
 
