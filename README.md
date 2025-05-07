@@ -20,6 +20,7 @@
    - ![image](https://github.com/user-attachments/assets/fcd95013-4ed5-4a0e-816e-c3becc76b65e),
      `actually here in the below image  here we are tring to calcualte weights and bias and number of trainable paramters`
    - ![image](https://github.com/user-attachments/assets/9e7bc64b-75e7-4024-ada5-5edb5eb1e85b),
+     **Multiple Perceptron Notations**-->`wijk,oij,bij-->here b is the bias and i is the number of layer and j is the position of the node in this layer and in weight, k is denoting that in which layer wieght is entering,i.e. w142 here 1 mean in which layer it is entering and 2 mean node of this layer,4 mean from which prrevious layer node it is coming`
    - ![image](https://github.com/user-attachments/assets/288021ec-ac03-453d-8404-cbfc48d0e89e)
 
 
