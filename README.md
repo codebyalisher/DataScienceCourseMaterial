@@ -17,6 +17,7 @@
    - ![image](https://github.com/user-attachments/assets/3ce887b8-f79e-449d-823f-e50a2ce61cd8),
    - ![image](https://github.com/user-attachments/assets/b8d8144f-c228-4c3c-829e-7a8aa6a3fe51),
      `The perceptron is a fundamental building block of neural networks. It was initially designed for binary classification, but the concept has evolved and can be adapted for both classification and regression problems by pairing it with appropriate activation functions and error (loss) functions.`
+     **MLP**:it is similar to the perceptron in which we calculate by using input feature and weight and then we passed to the sigmoid function and get the output ,but here in MLP the output of the each perceptrons  again multiplied with weight and by taking summation of them and then  passed to the next node and hence at the end final layer the output is passed ot the sigmoid for output.
    - ![image](https://github.com/user-attachments/assets/fcd95013-4ed5-4a0e-816e-c3becc76b65e),
      `actually here in the below image  here we are tring to calcualte weights and bias and number of trainable paramters`
    - ![image](https://github.com/user-attachments/assets/9e7bc64b-75e7-4024-ada5-5edb5eb1e85b),
