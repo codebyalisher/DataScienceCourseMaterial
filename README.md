@@ -17,7 +17,12 @@
    - ![image](https://github.com/user-attachments/assets/3ce887b8-f79e-449d-823f-e50a2ce61cd8),
    - ![image](https://github.com/user-attachments/assets/b8d8144f-c228-4c3c-829e-7a8aa6a3fe51),
      `The perceptron is a fundamental building block of neural networks. It was initially designed for binary classification, but the concept has evolved and can be adapted for both classification and regression problems by pairing it with appropriate activation functions and error (loss) functions.`
-   - ![image](https://github.com/user-attachments/assets/fcd95013-4ed5-4a0e-816e-c3becc76b65e)
+   - ![image](https://github.com/user-attachments/assets/fcd95013-4ed5-4a0e-816e-c3becc76b65e),
+     `actually here in the below image  here we are tring to calcualte weights and bias and number of trainable paramters`
+   - ![image](https://github.com/user-attachments/assets/9e7bc64b-75e7-4024-ada5-5edb5eb1e85b),
+   - ![image](https://github.com/user-attachments/assets/288021ec-ac03-453d-8404-cbfc48d0e89e)
+
+
 
 
 `in percetpron,it is similar to the multiple regression which try to find out the hyperplane to predict the values,there are 2 ways to implement it,one is perceptron trick in which we try to push or pull the line towards +ve region or -ve region by subtracting the the data points from the old points for getting the new weight we repeat this untill covnergience occured mean algo furthere dont make mistake,and this is done inside the loop ,we do two condtions to handle this+ve and -ve region but there is also issue here jumps ,to overcome the jumps we now subtract the along with the learning rate to move slowly,but there is also anothere approach whcih is better than this approach in which we use the actual value and predicted values along with the learning rate in which we do the precision or recall and on this base we do update the value or to get the new weight.this is the overall view of this way.`
