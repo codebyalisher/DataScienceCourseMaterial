@@ -31,6 +31,9 @@
 **Derivative**: what is thsi mean,actually in it we calculate the change by changing in one and seeing in other,i.e. delta L/delta W ,thsi shows that change in weight how much reflection in Loss. but this is not directly  calculate the change or derivative of ***delta L/delta W=delta L/delta y^ x delta y^/delta W***,  but indirectly it reflects by calculating the dependent factors first then we can calculate them as in thsi image we can see first we have to calculate the the y^ over weight (mean changing in weights how much change in y^ and so thus change in y^ how much change occur in loss) and then through thsi we will calculate loss over y^.thsi is how chainging Rule works.![image](https://github.com/user-attachments/assets/60fd7faf-8eba-4ae1-9abc-73c507b5fe4a).<br>
 ***How we calcualte teh derivative***:![image](https://github.com/user-attachments/assets/f3ec7b3a-4a48-41b4-a284-f77ecbee7bd6),
   for this we put the values of the given variables like y^ and W and then by solvig those values we will finally get the derivative results.
+**Derivative vs Gradient**: if we do calculate the chagne with respect to one variable then we say it is derivative and if we have multiple variables and then we calcualte the derivatives using del or partial derivative for each variable then we say it is Gradient.See here in the image.
+![image](https://github.com/user-attachments/assets/7a7a6876-6d30-41d5-b0d8-07330f6fc1ac)
+
 
 
 
