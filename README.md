@@ -35,6 +35,7 @@
 **Derivative vs Gradient**: if we do calculate the chagne with respect to one variable then we say it is derivative and if we have multiple variables and then we calcualte the derivatives using del or partial derivative for each variable then we say it is Gradient.See here in the image.Derivative+**Memoization** whcih is basically store the calculation of derivatived result for other neuron entering or path,mean if we calcuate the derivative for one path of the neuron ,since multiple inputs are being passed to the next neurons and hence we have multiple paths or inputs and we have to calcualte the derivative for each path here we can use the memoization concept as it store the result of once path calculated derivative for the other path which has the same input just with differnt weight.
 ![image](https://github.com/user-attachments/assets/7a7a6876-6d30-41d5-b0d8-07330f6fc1ac).
 **SGD vs BGD**:in sgd weights updated at each epocs or row and in bgd the weights are updated after complete visiting the batch ,and hence weights will be updated of this current batch upto the number of epochs.
+**ways to solve the overfitting**:![image](https://github.com/user-attachments/assets/dfa7620f-478c-43e6-9d0c-68899b185678)
 
 
 ## How to Start the Project regarding any Domain's Problem
