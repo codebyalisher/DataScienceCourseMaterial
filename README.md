@@ -23,11 +23,8 @@
    - ![image](https://github.com/user-attachments/assets/9e7bc64b-75e7-4024-ada5-5edb5eb1e85b),
      **Multiple Perceptron Notations**-->`wijk,oij,bij-->here b is the bias and i is the number of layer and j is the position of the node in this layer and in weight, k is denoting that in which layer wieght is entering,i.e. w142 here 1 mean in which layer it is entering and 2 mean node of this layer,4 mean from which prrevious layer node it is coming`
    - ![image](https://github.com/user-attachments/assets/288021ec-ac03-453d-8404-cbfc48d0e89e)
-
-
-
-
 `in percetpron,it is similar to the multiple regression which try to find out the hyperplane to predict the values,there are 2 ways to implement it,one is perceptron trick in which we try to push or pull the line towards +ve region or -ve region by subtracting the the data points from the old points for getting the new weight we repeat this untill covnergience occured mean algo furthere dont make mistake,and this is done inside the loop ,we do two condtions to handle this+ve and -ve region but there is also issue here jumps ,to overcome the jumps we now subtract the along with the learning rate to move slowly,but there is also anothere approach whcih is better than this approach in which we use the actual value and predicted values along with the learning rate in which we do the precision or recall and on this base we do update the value or to get the new weight.this is the overall view of this way.`
+**Loss Functions**: if we are dealing with the ***regression problems***-->use MSE,but if there are outliers use MAE. ***Classification Problems*** we use binary cross entropy(bce) for binary classification,for multiple classifications we use cross categorical entropy(cce) for 3 classification in it we have to calcualte the log for each category,sparse cross entropy(sce) for many categories but here for them we calculate for only one category.
 
 ## How to Start the Project regarding any Domain's Problem
 1. **Business Problem to ML Problem:**
