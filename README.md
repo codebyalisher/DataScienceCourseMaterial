@@ -42,7 +42,7 @@
 ![image](https://github.com/user-attachments/assets/1a0949a2-e4cd-4029-a929-6ca24af43654)
 **Backpropagation in (flatten,maxpooling,convolution)-->`backpropagation in cnn as i come to know that the last part of the cnn which is basically the ann and i come to know till the maxpooling layer which is the part of cnn but from maxpooling to activtion function and from this to input i confused how propagaion occur here ,if we split the cnn architechure into cnn and ann part just explain me in descriptive way like we have to minimize the loss using gradient by backpropagation ,if we start from the loss it depends on y^ and it dpends on flatten layer which is 2x2 matrix and now it is 4x4 sicne we are dong backpropagation and this now depends on maxpooling which is 4x4 matrix and again maxpooling depends on activation function
 as i told you little bit hind in descriptive form ,similar provide me in this way got it`
-
+**Transfer learning** means keeping the CNN part as-is (since it already knows how to "see" images), and replacing the ANN part so the model can make predictions for your specific labels, even if they weren’t part of the original model's training,We keep the CNN part (also called the feature extractor) of the model — it has already learned to detect useful patterns like edges, textures, and shapes from millions of images.We usually freeze these layers so they don’t get updated during training. This saves time and avoids overfitting, especially if your dataset is small.we remove or ignore those FC(fully connected) layers and add new ones suited to your task.
 
 
 ## How to Start the Project regarding any Domain's Problem
