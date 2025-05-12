@@ -40,6 +40,8 @@
 **ANN vs CNN**: in ANN we calcualte the dot product of input with weights and it is `dependent on input` thats why its more computational than CNN,while CNN is similar to the ANN but there is little bit difference it calculate the dot product or convolution by sliding filter on input image and it is `independent of input` that is why it is less computational and is used ofr the iamge processing.
 **How to Make the Architechure of CNN**: in it we do it in `three ways` 1-diagrams of layers,2-logical flow of the architechure,3-equations for the architechure as given in this image-->![image](https://github.com/user-attachments/assets/bbc879ef-9939-4642-b8fe-67c3c3c4d629)
 ![image](https://github.com/user-attachments/assets/1a0949a2-e4cd-4029-a929-6ca24af43654)
+**Backpropagation in (flatten,maxpooling,convolution)-->`backpropagation in cnn as i come to know that the last part of the cnn which is basically the ann and i come to know till the maxpooling layer which is the part of cnn but from maxpooling to activtion function and from this to input i confused how propagaion occur here ,if we split the cnn architechure into cnn and ann part just explain me in descriptive way like we have to minimize the loss using gradient by backpropagation ,if we start from the loss it depends on y^ and it dpends on flatten layer which is 2x2 matrix and now it is 4x4 sicne we are dong backpropagation and this now depends on maxpooling which is 4x4 matrix and again maxpooling depends on activation function
+as i told you little bit hind in descriptive form ,similar provide me in this way got it`
 
 
 
