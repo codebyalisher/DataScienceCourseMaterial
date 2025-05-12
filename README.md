@@ -36,6 +36,7 @@
 ![image](https://github.com/user-attachments/assets/7a7a6876-6d30-41d5-b0d8-07330f6fc1ac).
 **SGD vs BGD**:in sgd weights updated at each epocs or row and in bgd the weights are updated after complete visiting the batch ,and hence weights will be updated of this current batch upto the number of epochs.
 **ways to solve the overfitting**:![image](https://github.com/user-attachments/assets/dfa7620f-478c-43e6-9d0c-68899b185678)
+**BackPropagaion in CNN**:![image](https://github.com/user-attachments/assets/5ad83df9-dcb6-4edf-9661-fc26340c28d1)
 **ANN vs CNN**: in ANN we calcualte the dot product of input with weights and it is `dependent on input` thats why its more computational than CNN,while CNN is similar to the ANN but there is little bit difference it calculate the dot product or convolution by sliding filter on input image and it is `independent of input` that is why it is less computational and is used ofr the iamge processing.
 **How to Make the Architechure of CNN**: in it we do it in `three ways` 1-diagrams of layers,2-logical flow of the architechure,3-equations for the architechure as given in this image-->![image](https://github.com/user-attachments/assets/bbc879ef-9939-4642-b8fe-67c3c3c4d629)
 
