@@ -68,7 +68,9 @@ To implement an RNN for natural language processing, the process begins with tok
         **ML Problem:** Identify the intent of customer inquiries (Natural Language Understanding/Classification).<br>
 
 2. **Type of Problem:**
-
+```python
+a detailed and cohesive set of paragraphs that explain the main categories of machine learning models—including ensemble techniques, regression, classification, reinforcement learning, and unsupervised learning. Each paragraph includes how the models works along with the math intitution and sckit library implementation , and how limitations in one model often led to the development of another where necessary.
+```
    **Goal:** Understanding the nature of the ML problem is crucial for selecting appropriate algorithms, evaluation metrics, and data preprocessing techniques.<br>
   **Categorization:** This step involves identifying whether the problem falls into categories like:<br>
        **Supervised Learning:** Learning from labeled data (e.g., Classification, Regression).<br>
