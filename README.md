@@ -58,8 +58,9 @@ Recurrent Neural Networks (RNNs) can be structured in various input-output confi
 **RNN vs LSTM**:The key difference between a standard Recurrent Neural Network (RNN) and a Long Short-Term Memory (LSTM) network lies in how they handle memory over time. Traditional RNNs are designed to process sequences by passing hidden states from one time step to the next, allowing the model to retain some information from the past. However, RNNs struggle with learning long-term dependencies due to issues like vanishing gradients, which make it difficult for the network to retain relevant information over many time steps. LSTM networks were introduced to address this problem by incorporating a more advanced memory structure. Instead of relying solely on a single hidden state, LSTMs use two components: the `cell state`, which acts as long-term memory, and the `hidden state`, which captures short-term information. To manage what information to keep, update, or discard, LSTMs use `three special gates`—forget gate, input gate, and output gate—each of which is controlled by the current input and previous hidden state. These gates allow the LSTM to selectively remember important data over long sequences and forget irrelevant information, making it much more effective than a basic RNN for tasks involving long-range context, such as language modeling, translation, or time series forecasting.three inputs cellstate ct and hidden stat st and  xt input and two things happend in node update and create hidden state and give two things ct and ht.in each gate there is bitwise operation eithere to stop or passing the 50% or full information to move along the cellstate.
 
 **GRU**:inner working in this image ![image](https://github.com/user-attachments/assets/bfdc4bd2-e75d-4f83-9c32-1e7c96eb4ab6),
-![image](https://github.com/user-attachments/assets/af20e82b-9f20-4d25-8bb6-3f400cc74b8f)
-**RNN vs LSTM vs GRU**
+![image](https://github.com/user-attachments/assets/af20e82b-9f20-4d25-8bb6-3f400cc74b8f) <br>
+**RNN vs LSTM vs GRU**:![image](https://github.com/user-attachments/assets/f9bcfa8c-4bfa-4de9-9183-dc20fefab2ae)
+
 
 ## How to Start the Project regarding any Domain's Problem
 1. **Business Problem to ML Problem:**
