@@ -154,7 +154,16 @@ Real World Application of Transformers
   ![image](https://github.com/user-attachments/assets/92f831f0-b064-4a58-b007-8b93a07c7278)
   ![image](https://github.com/user-attachments/assets/4734615c-1751-455b-bef7-6300e5fc337b)
   ![image](https://github.com/user-attachments/assets/dcaf7fbb-c427-435f-8fa9-dd6ed07e3f69)
+  ![image](https://github.com/user-attachments/assets/35bde0f1-6343-45b8-b08e-27ea4c868a29),here purple next to green matrix is the basically transpose of this green matrix.
+    **One-hot encoding**
+⟶ Too simple, no meaning or context
 
+**Static word embeddings (Word2Vec, GloVe)**
+⟶ Add meaning, but still one vector per word (not context-aware)
+
+**Contextual embeddings (ELMo, BERT)**
+⟶ Words now get vectors based on sentence context (e.g., "bank" in river bank vs. money bank) <br>
+`To make a self-attention model (like a Transformer) task-specific`, we need to add learnable parameters that can be trained on that task.
 
 
 ## How to Start the Project regarding any Domain's Problem
