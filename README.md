@@ -197,6 +197,8 @@ It gives the model the ability to attend to different types of relationships sim
 This is crucial for capturing complex patterns in sequences — syntactic, semantic, positional, etc.
 ![image](https://github.com/user-attachments/assets/33fc72b6-18d5-44d9-bf6a-4171bae30261)
 ![image](https://github.com/user-attachments/assets/cca58c87-1b82-4165-9de6-0efc59622400)
+![image](https://github.com/user-attachments/assets/39b34474-9f36-488c-8438-759eb8679dde)
+![image](https://github.com/user-attachments/assets/90d68120-dbe3-4cb1-b754-b2bb29547385)-->this architechur was used in transformer.
 
 
 
