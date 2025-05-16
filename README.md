@@ -153,6 +153,8 @@ Real World Application of Transformers
 - The main applications of transformers include chatbots like ChatGPT, which generate text, and tools like DALL-E 2, which create images from text prompts.
   ![image](https://github.com/user-attachments/assets/92f831f0-b064-4a58-b007-8b93a07c7278)
   ![image](https://github.com/user-attachments/assets/4734615c-1751-455b-bef7-6300e5fc337b)
+  ![image](https://github.com/user-attachments/assets/e366e1dc-a058-47ab-b7a3-01fa6218dfc0)
+  ![image](https://github.com/user-attachments/assets/201207b7-518c-46a6-b27c-b59486049890)
 
 
 ## How to Start the Project regarding any Domain's Problem
