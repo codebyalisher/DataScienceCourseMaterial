@@ -179,10 +179,14 @@ And these are not the same as the input vector.
 ![image](https://github.com/user-attachments/assets/b1d98e68-9c00-4a39-b860-4f91d5de8e98)
 ![image](https://github.com/user-attachments/assets/a4fc5627-13da-430f-9854-6b1b262f0160)
 ![image](https://github.com/user-attachments/assets/7752019c-8b1e-404b-9136-ea7d4fb70a98),
-![image](https://github.com/user-attachments/assets/7924e8a7-440f-40c6-8b06-4d581e650f16)<br>
+![image](https://github.com/user-attachments/assets/7924e8a7-440f-40c6-8b06-4d581e650f16),
+![image](https://github.com/user-attachments/assets/04c5bbd5-d53d-468e-bcad-e301d7acb11c),for all the vecotrs with the eaxct same number ,dimension for all.
+ ![image](https://github.com/user-attachments/assets/b7993e85-2037-405c-b615-66a49f8af63f)<br>
 In self-attention models like Transformers, each input word (initially represented by an embedding vector) is not directly used as a query, key, or value. Instead, the model applies three separate learned linear transformations to each input vector to generate its corresponding Query (Q), Key (K), and Value (V) vectors. These transformations are performed using weight matrices (W_Q, W_K, W_V) that are learned during training, allowing the model to determine how each word should attend to other words in the sequence. The query vector from one word is compared (using dot product) with the key vectors of all other words to compute attention scores, which are then used to take a weighted sum of the value vectors, producing a context-aware representation. This mechanism enables the model to dynamically focus on relevant parts of the input, capturing complex dependencies and context, and it forms the foundation for later adding task-specific layers that fine-tune the model for downstream applications like classification, translation, or question answering. <br>
-
-
+![image](https://github.com/user-attachments/assets/deb140e4-7c83-49c8-a827-4a439a982b1c),
+![image](https://github.com/user-attachments/assets/f296bd84-eeef-46f3-b0b6-d45fe9010a85),
+![image](https://github.com/user-attachments/assets/7d1e8eb7-8f75-4b23-840a-69ebaf85eda4)
+**Summary**:![image](https://github.com/user-attachments/assets/9137353f-0dca-46f5-954a-81cbd35a8749)
 
 
 
