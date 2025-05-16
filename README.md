@@ -164,6 +164,23 @@ Real World Application of Transformers
 **Contextual embeddings (ELMo, BERT)**
 ⟶ Words now get vectors based on sentence context (e.g., "bank" in river bank vs. money bank) <br>
 `To make a self-attention model (like a Transformer) task-specific`, we need to add learnable parameters that can be trained on that task.
+***Self-Attention: What Actually Happens?***
+You're right:
+In the vanilla self-attention mechanism, each input vector (word embedding) is not directly used as the query, key, and value. Instead:
+
+✅ The model transforms each input vector into:
+A Query vector (Q)
+
+A Key vector (K)
+
+A Value vector (V)
+
+And these are not the same as the input vector.
+![image](https://github.com/user-attachments/assets/b1d98e68-9c00-4a39-b860-4f91d5de8e98)
+![image](https://github.com/user-attachments/assets/a4fc5627-13da-430f-9854-6b1b262f0160)
+
+
+
 
 
 ## How to Start the Project regarding any Domain's Problem
