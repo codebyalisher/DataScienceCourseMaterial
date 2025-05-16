@@ -188,6 +188,7 @@ In self-attention models like Transformers, each input word (initially represent
 ![image](https://github.com/user-attachments/assets/7d1e8eb7-8f75-4b23-840a-69ebaf85eda4)
 **Summary**:![image](https://github.com/user-attachments/assets/9137353f-0dca-46f5-954a-81cbd35a8749)
 ![image](https://github.com/user-attachments/assets/c51a4e3d-3ae8-49ba-acdb-855744a8ab37)
+![image](https://github.com/user-attachments/assets/94f2e144-0833-4346-8c2b-f155f52e854a)
 
 
 
