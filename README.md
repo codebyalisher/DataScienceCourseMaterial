@@ -151,7 +151,9 @@ The Advantages of Transformers
 Real World Application of Transformers
 - Transformers can be integrated with other AI techniques, such as GANs for image generation, reinforcement learning for game-playing agents, and CNNs for image captioning.
 - The main applications of transformers include chatbots like ChatGPT, which generate text, and tools like DALL-E 2, which create images from text prompts.
-- ![Uploading image.png…]()
+  ![image](https://github.com/user-attachments/assets/92f831f0-b064-4a58-b007-8b93a07c7278)
+  ![image](https://github.com/user-attachments/assets/4734615c-1751-455b-bef7-6300e5fc337b)
+
 
 ## How to Start the Project regarding any Domain's Problem
 1. **Business Problem to ML Problem:**
