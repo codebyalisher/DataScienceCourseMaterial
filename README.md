@@ -178,6 +178,7 @@ A Value vector (V)
 And these are not the same as the input vector.
 ![image](https://github.com/user-attachments/assets/b1d98e68-9c00-4a39-b860-4f91d5de8e98)
 ![image](https://github.com/user-attachments/assets/a4fc5627-13da-430f-9854-6b1b262f0160)
+![image](https://github.com/user-attachments/assets/2c7ee50c-6001-40b9-a290-94b60182714c) and these query ,key and value vectors will be get from the data.
 
 
 
