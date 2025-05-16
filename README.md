@@ -178,7 +178,8 @@ A Value vector (V)
 And these are not the same as the input vector.
 ![image](https://github.com/user-attachments/assets/b1d98e68-9c00-4a39-b860-4f91d5de8e98)
 ![image](https://github.com/user-attachments/assets/a4fc5627-13da-430f-9854-6b1b262f0160)
-![image](https://github.com/user-attachments/assets/7752019c-8b1e-404b-9136-ea7d4fb70a98),<br>
+![image](https://github.com/user-attachments/assets/7752019c-8b1e-404b-9136-ea7d4fb70a98),
+![image](https://github.com/user-attachments/assets/7924e8a7-440f-40c6-8b06-4d581e650f16)<br>
 In self-attention models like Transformers, each input word (initially represented by an embedding vector) is not directly used as a query, key, or value. Instead, the model applies three separate learned linear transformations to each input vector to generate its corresponding Query (Q), Key (K), and Value (V) vectors. These transformations are performed using weight matrices (W_Q, W_K, W_V) that are learned during training, allowing the model to determine how each word should attend to other words in the sequence. The query vector from one word is compared (using dot product) with the key vectors of all other words to compute attention scores, which are then used to take a weighted sum of the value vectors, producing a context-aware representation. This mechanism enables the model to dynamically focus on relevant parts of the input, capturing complex dependencies and context, and it forms the foundation for later adding task-specific layers that fine-tune the model for downstream applications like classification, translation, or question answering. <br>
 
 
