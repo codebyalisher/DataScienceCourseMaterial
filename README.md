@@ -188,8 +188,9 @@ In self-attention models like Transformers, each input word (initially represent
 ![image](https://github.com/user-attachments/assets/7d1e8eb7-8f75-4b23-840a-69ebaf85eda4)
 **Summary**:![image](https://github.com/user-attachments/assets/9137353f-0dca-46f5-954a-81cbd35a8749)
 ![image](https://github.com/user-attachments/assets/c51a4e3d-3ae8-49ba-acdb-855744a8ab37)
-![image](https://github.com/user-attachments/assets/94f2e144-0833-4346-8c2b-f155f52e854a)
-
+![image](https://github.com/user-attachments/assets/94f2e144-0833-4346-8c2b-f155f52e854a)<br>
+**why self attention called self attention**:
+In earlier attention mechanisms like Bahdanau (additive) and Luong (multiplicative), used in RNN-based encoder-decoder models, the encoder produces a sequence of hidden states, and the decoder generates one output at a time by computing attention over these encoder states — effectively treating them as keys and values, while the decoder's current hidden state acts as the query. These models produce a single context vector per decoder step, which summarizes the relevant information from the input to help generate the next output token. In contrast, Transformer self-attention generalizes this idea by computing a contextualized vector for every token simultaneously, allowing each token to attend to every other token (not just encoder-to-decoder) using learned query, key, and value projections from the same input. This shifts the model from producing one summary vector per time step (as in Bahdanau/Luong) to building a fully contextual representation for every token, enabling richer and more parallelizable learning of relationships across sequences.
 
 
 ## How to Start the Project regarding any Domain's Problem
