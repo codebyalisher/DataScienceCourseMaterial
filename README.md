@@ -11,7 +11,7 @@ Natural Language Processing (NLP) is a multidisciplinary field that combines lin
 Your approach to structuring an NLP pipeline is generally sound, with a few areas that could benefit from clarification and refinement. Here's a breakdown based on the steps you outlined:
 
 ---
-
+## NLP Pipelines
 ### 1. **Data Acquisition**
 
 * **User-Provided Data**: Utilizing datasets from multiple users is a common practice. Ensure that the data is anonymized and complies with privacy regulations.
